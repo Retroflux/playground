@@ -74,7 +74,7 @@ def main():
 
 	for number in listOfBingoCards[winningBingoCardNumber].BingoCardValues:
 		print(number)
-		if (number == 'X' or number == winningNumber):
+		if (number == 'X'):
 			pass
 		else:
 			summationOfRemainingBingoNumbers += int(number.strip())
