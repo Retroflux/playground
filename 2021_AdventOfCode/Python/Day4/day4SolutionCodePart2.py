@@ -36,11 +36,14 @@ def main():
 	firstLineFlag = 0
 	checkRowsForBingo = 0
 	checkColumnsForBingo = 0
+	offsetTracker = 0
 	i = 0
 	j = 0
 	x = 0
 	bingoCardCounter = 0
 	winningBingoCardNumber = 0
+	penultimateWinningNumber = 0
+	winningNumber = 0
 	summationOfRemainingBingoNumbers = 0
 
 	with open("input.txt","r") as fp:
@@ -68,27 +71,56 @@ def main():
 		bingoCard.BingoCardValues = bingoCard.BingoCardValues.split()
 		print(bingoCard.BingoCardValues)
 
+	while(len(listOfBingoCards) > 1):
+		penultimateWinningNumber = findLosingBingoCard(listOfWinningNumbers,listOfBingoCards)
+		# listOfBingoCards = fixBingoCardNumbers(listOfBingoCards)
 	(winningBingoCardNumber,winningNumber) = findWinningBingoCard(listOfWinningNumbers,listOfBingoCards)
-	if (winningBingoCardNumber == -1):
+	
+	if (penultimateWinningNumber == -1):
 		print("Fatal Error: Ya dun' goofed")
 
-	for number in listOfBingoCards[winningBingoCardNumber].BingoCardValues:
-		print(number)
-		if (number == 'X' or number == winningNumber):
+	for number in listOfBingoCards[0].BingoCardValues:
+		if (number == 'X'):
 			pass
 		else:
+			print(number)
 			summationOfRemainingBingoNumbers += int(number.strip())
 	
 	print(f"Summation of the remaining bingo numbers is {summationOfRemainingBingoNumbers}")
-	finalValue = winningNumber * summationOfRemainingBingoNumbers
+	finalValue = int(winningNumber) * summationOfRemainingBingoNumbers
 	print(f"Final Value: {finalValue}")
 
-
 	#Testing Print
-	# for bingoCard in listOfBingoCards:
-	# 	print("\n\n\n")
-	# 	for i in range(0,5):
-	# 		print(bingoCard.BingoCardValues[5*i:(5*i)+5])
+	for bingoCard in listOfBingoCards:
+		print("\n\n\n")
+		for i in range(0,5):
+			print(bingoCard.BingoCardValues[5*i:(5*i)+5])
+
+def findLosingBingoCard(listOfWinningNumbers,listOfBingoCards):
+	i = 0
+	j = 0
+	currMax = 0
+	matchFound = 0
+	boardsRemoved = 0
+	for winningNumber in listOfWinningNumbers:
+		j=0
+		currMax = len(listOfBingoCards)
+		while j < currMax:
+			for i in range(0,len(listOfBingoCards[j].BingoCardValues)):
+				if (listOfBingoCards[j].BingoCardValues[i] == winningNumber):
+					listOfBingoCards[j].BingoCardValues[i] = 'X'
+					checkRowsForBingo = checkRowsForCompletion(listOfBingoCards[j])
+					checkColumnsForBingo = checkColumnsForCompletion(listOfBingoCards[j])
+					if(checkRowsForBingo or checkColumnsForBingo):
+						del listOfBingoCards[j]
+						j-=1
+						currMax-=1
+						matchFound = 1
+						break
+			j+=1
+		if(matchFound == 1):
+			return winningNumber
+
 
 def findWinningBingoCard(listOfWinningNumbers,listOfBingoCards):
 	i = 0
@@ -106,6 +138,14 @@ def findWinningBingoCard(listOfWinningNumbers,listOfBingoCards):
 						print(f"Winning Number:{winningNumber}")
 						return (bingoCard.BingoCardNumber,int(winningNumber))
 	return -1
+
+def fixBingoCardNumbers(listOfBingoCards):
+	i = 0
+
+	for card in listOfBingoCards:
+		card.BingoCardNumber = i
+		i+=1
+	return listOfBingoCards
 
 def checkRowsForCompletion(bingoCard):
 	i = 0 
@@ -131,7 +171,6 @@ def checkColumnsForCompletion(bingoCard):
 		if counter == 5:
 			return True			
 	return False	
-
 
 
 if __name__ == '__main__':
