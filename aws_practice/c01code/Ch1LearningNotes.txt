@@ -1,0 +1,28 @@
+Notes from Ch.1 
+
+Exercise 1.5
+
+- The files generated from 1.5 are MP3 files, but I have to be careful about which voices from the
+    awsPollyVoices.txt file that I use, since some of them are listed as "standard", and some "neural". For example,
+    the "Kevin" voice is not compatible with the Polly code I wrote, as that voice doesn't have a "standard" tag.
+
+Exercise 1.6
+
+- running the aws configure get region command indicates that I am in fact using us-east-1 for my API calls
+
+aws polly put-lexicon --name awsLexicon --content file://aws-lexicon.xml #used to push a lexicon to the default server.
+
+- note that this is what is overriding the region, causing the LexiconNotFoundException when running *helloaws.py*
+- This is because there is no lexicon in the eu-west-2 region currently. Add it with
+    aws polly put-lexicon --name awsLexicon --content file://aws-lexicon.xml --region eu-west-2
+        aws polly put-lexicon: indicates a push of a lexicon to a server
+        --name awsLexicon: gives the file a name
+        --content file://aws-lexicon.xml: points to the file that needs to be pushed
+        --region eu-west-2: specifies the region to push to, overriding the default (us-east-1)
+- Running this command and then this script removes the issues.
+- Note that after deleting the lexicon using the following commands:
+    aws polly delete-lexicon --name awsLexicon
+    aws polly delete-lexicon --name awsLexicon --region eu-west-2
+  The commands can't run because it is looking for a lexicon on those servers (depending on which is specified).
+  Also note that the lexicons can only work on voices that have the correct voice language code (en-us). The one
+  provided in the text is not en-us compliant, so this needs to be changed for any of the lexicon changes to take.
