@@ -15,21 +15,21 @@ with open('aws-lexicon.xml','r') as file:
 print("Attempting to upload lexicon...")
 
 try:
-	response = polly.put_lexicon(
-    	Content=lexicon,
-    	Name='awsLexicon',
-	)
-	print("Done!")
+    response = polly.put_lexicon(
+        Content=lexicon,
+        Name='awsLexicon',
+    )
+    print("Done!")
 
 except ClientError as e:
-	if e.response['Error']['Code'] == 'AccessDeniedException':
-		print("*********************")
-		print(e)
-		print ("********************")
-		print ("Don't panic. =) This exception is expected!")
-		print ("Continue with the exercise to fix it.")
-	else:
-		print(e)
+    if e.response['Error']['Code'] == 'AccessDeniedException':
+        print("*********************")
+        print(e)
+        print ("********************")
+        print ("Don't panic. =) This exception is expected!")
+        print ("Continue with the exercise to fix it.")
+    else:
+        print(e)
 
 
 
