@@ -10,4 +10,8 @@
     <grapheme>AWS</grapheme>
     <alias>Amazon Web Services</alias>
   </lexeme>
+  <lexeme>
+    <grapheme>Web</grapheme>
+    <alias>World-Wide Web</alias>
+  </lexeme>
 </lexicon>
