@@ -131,3 +131,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /aws_practice/keypairs/
+/aws_practice/c02code/chapter-02/private_notes.txt
