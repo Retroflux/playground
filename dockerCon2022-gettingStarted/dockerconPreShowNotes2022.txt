@@ -63,6 +63,27 @@ docker stop <container ID>
 
 docker logs -f --tail 3 5eee74533141
 
+figlet/Dockerfile
+
+Before the break, we were using figlet to display text. Too many steps to actually install, build, and then type figlet. We want the image to take in words and just have it execute. This is more real-world because we just want the docker image to do what we want it to do. 
+
+Dockerfiles allow us to do this. Here are some keywords:
+
+FROM - pulls a base image
+RUN - issues a command to the docker image
+
+every time you change the docker file, everything after the line change will be invalidated and will have to be run again.
+
+docker build -it figlet . //creates an image that has figlet on a Fedora base.
+
+docker run -it figlet //runs the fedora figlet tagged image.
+
+docker build -t retroflux/figlet:latest .  //pushes the image to dockerhub
+
+you can then push it to the docker hub through docker desktop, and then pull it with 
+
+docker pull retroflux/figlet
+
 
 
 
