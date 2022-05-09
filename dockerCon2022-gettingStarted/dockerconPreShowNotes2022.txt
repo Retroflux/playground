@@ -84,6 +84,58 @@ you can then push it to the docker hub through docker desktop, and then pull it 
 
 docker pull retroflux/figlet
 
+Dockerizing Old Code
+
+For this part, we'll be dockerizing some Python 3.9 code. For consistency, we'll use that over the latest.
+
+Dockerfile
+
+FROM python:3.9-slim
+
+WORKDIR /app  //where you want the docker code to work in
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . . // this might cause issues, but most of it is what we want. 
+EXPOSE 5000
+CMD ["python3", "-m", "flask", "run", "--host 0.0.0.0"]
+
+
+.dockerignore
+
+.env
+.
+
+docker image prune
+docker container prune
+docker build -t ti4-workshop
+
+docker run -d -p 5000:5000 -e .env --name ti4workshopfromthecli ti4-workshop //when the macbook port 5000 is hit, instead hit docker port 5000
+
+
+docker/awesome-compose  //great starting point for compose files
+
+
+For my stuff, I did: 
+
+FROM python:latest
+COPY . .
+WORKDIR ./Day1/
+
+
+CMD ["python3", "day1SolutionCodePart2.py"]
+
+then ran
+
+  880  docker build -t aocimage .
+  881  docker run aocimage
+
+from the directory holding the Advent of Code Dockerfile.
+
+
+The rest of the pre-con presentation was really only useful if you have a webapp that could be reasonably followed along with. They discussed compose and the nuances of it. 
+
+The --help for all of docker commands alonside the docs pages are super powerful when used properly.
 
 
 
