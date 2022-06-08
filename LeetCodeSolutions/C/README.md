@@ -1,5 +1,7 @@
 <h2>Completed Solutions:</h2>
 
+0012 Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, 92nd percentile
+
 0013 Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
 
 <h2>Incomplete Solutions:</h2>
