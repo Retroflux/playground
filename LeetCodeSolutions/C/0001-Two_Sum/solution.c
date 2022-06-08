@@ -11,10 +11,11 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize);
 int main(int argc, char const *argv[])
 {
     /* code */
-    int * returnArray=malloc(sizeof(int)*2);
+    int * returnSize=malloc(sizeof(int)*1);
     int nums[4] = {15,7,11,2};
+    int * returnArray;
 
-    returnArray = twoSum(nums,sizeof(nums)/sizeof(int),13,returnArray);
+    returnArray = twoSum(nums,sizeof(nums)/sizeof(int),13,returnSize);
 
     printf("%d + %d = %d\n",nums[returnArray[0]], nums[returnArray[1]],nums[returnArray[0]]+nums[returnArray[1]]);
     free(returnArray);
@@ -23,10 +24,11 @@ int main(int argc, char const *argv[])
 
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+    *returnSize = 2;
     int leftPointer = 0;
     int rightPointer = numsSize-1;
     qsort(nums,numsSize,sizeof(int),sortFunc);
-    
+    int * returnArray = malloc(sizeof(int)*(*returnSize));
     
     while((nums[leftPointer]+nums[rightPointer]) != target){
         if(nums[rightPointer] > target)                         {rightPointer--;}
@@ -34,10 +36,10 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
         else if(nums[rightPointer] + nums[leftPointer] < target){leftPointer++;}
     }
    
-    returnSize[0]= leftPointer;
-    returnSize[1]= rightPointer;
+    returnArray[0] = leftPointer;
+    returnArray[1] = rightPointer;
 
-    return returnSize;
+    return returnArray;
 }
 
 
