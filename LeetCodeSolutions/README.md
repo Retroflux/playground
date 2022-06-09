@@ -1,14 +1,14 @@
 <h2>Completed Solutions:</h2>
 
-[0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) Two Sum; No Statistics Available because I re-arranged the provided array, cannot complete.
+[0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Two Sum; No Statistics Available because I re-arranged the provided array, cannot complete.
 
-[0003](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0003-Longest_Substring_Without_Repeating_Characters) Longest Substring No Repeating Characters Runtime: 60ms (92nd percentile); Memory Usage: 14.1MB (50th percentile).
+[0003](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0003-Longest_Substring_Without_Repeating_Characters) (Python) Longest Substring No Repeating Characters Runtime: 60ms (92nd percentile); Memory Usage: 14.1MB (50th percentile).
 
-[0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, 92nd percentile.
+[0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, 92nd percentile.
 
-[0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
+[0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
 
-[0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
+[0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
 <h2>Incomplete Solutions:</h2>
 
