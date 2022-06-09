@@ -6,15 +6,17 @@
 
 [0004](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0004-Median_of_Two_Sorted_Arrays) (Python) Median of Two Sorted Arrays Runtime: 85ms (98th percentile); Memory Usage: 14.3MB (25th percentile).
 
-[0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, 92nd percentile.
+[0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0007-Reverse_Integer) (Python) Reverse Integer Runtime: 38ms (76th percentile); Memory Usage: 13.8MB (97th percentile).
+
+[0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, (92nd percentile).
 
 [0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
 
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
-[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile)
+[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).
 <br>
-[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile)
+[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
 
 
 <h2>Incomplete Solutions:</h2>
@@ -24,8 +26,6 @@
 0005
 
 0006
-
-0007
 
 0008
 
