@@ -4,6 +4,8 @@
 
 [0003](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0003-Longest_Substring_Without_Repeating_Characters) (Python) Longest Substring No Repeating Characters Runtime: 60ms (92nd percentile); Memory Usage: 14.1MB (50th percentile).
 
+[0004](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0004-Median_of_Two_Sorted_Arrays) (Python) Median of Two Sorted Arrays Runtime: 85ms (98th percentile); Memory Usage: 14.3MB (25th percentile).
+
 [0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, 92nd percentile.
 
 [0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
@@ -14,7 +16,7 @@
 
 0002
 
-0004
+
 
 0005
 
