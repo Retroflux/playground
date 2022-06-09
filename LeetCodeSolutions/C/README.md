@@ -6,6 +6,8 @@
 
 [0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
 
+[0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
+
 <h2>Incomplete Solutions:</h2>
 
 0002
@@ -333,8 +335,6 @@
 0165
 
 0166
-
-0167
 
 0168
 

@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
+/*
+Date of Submission: 2022-06-08
+
+Note that this code is not what was submitted. There was no 
+reason to push for linear time on this submission when the
+qsort can do it in nlogn time; If you want a linear time 
+solution for this, you can hire me.
+
+*/
 int sortFunc (const void * a, const void * b);
 int* twoSum(int* nums, int numsSize, int target, int* returnSize);
 
