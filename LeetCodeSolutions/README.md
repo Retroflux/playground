@@ -12,11 +12,11 @@
 
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
+[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile)
+
 <h2>Incomplete Solutions:</h2>
 
 0002
-
-
 
 0005
 
@@ -2961,8 +2961,6 @@
 1478
 
 1479
-
-1480
 
 1481
 
