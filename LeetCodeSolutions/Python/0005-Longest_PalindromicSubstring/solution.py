@@ -14,6 +14,8 @@ class Solution:
         subStringPos = 0
         
         #TODO Extremely long strings of potential substrings take too long. It might be best to convert the string into a more compact design (ex. aaaa = a4).
+        #TODO What if we iterate through s, with a while loop that checks further and further left and right edges from s[i] until out of bounds or non-match. 
+            # Same thing could be done for even length as well, just start with two-wide substring instead.
         for i in range(0,n):
             if(n-i < maxSubstring):
                 break
