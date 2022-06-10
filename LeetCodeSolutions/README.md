@@ -14,9 +14,11 @@
 
 [0009](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0009-Palindrome_Number) (Python) Palindrome Number Runtime: 59ms (93rd percentile); Memory Usage: 13.8MB (97th percentile).
 
-[0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, (92nd percentile).
+[0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB (92nd percentile).
 
-[0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
+[0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB (85th percentile).
+
+[0014](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0014-Longest_Common_Prefix) (Python) Longest Common Prefix Runtime: 32ms(95th percentile); Memory Usage: 14MB (49th percentile).
 
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
@@ -29,18 +31,13 @@
 
 0002
 
-
 0006
 
 0008
 
-0009
-
 0010
 
 0011
-
-0014
 
 0015
 
