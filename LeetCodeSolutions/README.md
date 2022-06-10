@@ -6,7 +6,7 @@
 
 [0004](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0004-Median_of_Two_Sorted_Arrays) (Python) Median of Two Sorted Arrays Runtime: 85ms (98th percentile); Memory Usage: 14.3MB (25th percentile).
 
-[0005](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0005-Longest_PalindromicSubstring) (Python) IN PROGRESS
+[0005](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0005-Longest_PalindromicSubstring) (Python) Longest Palindromic Subsequence Runtime: 293ms (94th percentile); Memory Usage: 13.9MB(90th percentile).
 
 [0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0007-Reverse_Integer) (Python) Reverse Integer Runtime: 38ms (76th percentile); Memory Usage: 13.8MB (97th percentile).
 <br>
