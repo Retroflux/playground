@@ -12,6 +12,8 @@
 <br>
 [0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0007-Reverse_Integer) (C) Reverse Integer Runtime: 0ms (100th percentile); Memory Usage: 5.8MB (24th percentile).
 
+[0009](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0009-Palindrome_Number) (Python) Palindrome Number Runtime: 59ms (93rd percentile); Memory Usage: 13.8MB (97th percentile).
+
 [0012](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0012-Integer_To_Roman) (C) Integer to Roman Runtime: 4ms (82nd percentile); Memory Usage: 5.8MB, (92nd percentile).
 
 [0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB, (85th percentile).
