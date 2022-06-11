@@ -8,6 +8,8 @@
 
 [0005](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0005-Longest_PalindromicSubstring) (Python) Longest Palindromic Subsequence Runtime: 293ms (94th percentile); Memory Usage: 13.9MB(90th percentile).
 
+[0006](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0006-Zigzag_Conversion) (Python) Zigzag Conversion Runtime: 70ms (71st percentile); Memory Usage: 14MB (51st percentile).
+
 [0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0007-Reverse_Integer) (Python) Reverse Integer Runtime: 38ms (76th percentile); Memory Usage: 13.8MB (97th percentile).
 <br>
 [0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0007-Reverse_Integer) (C) Reverse Integer Runtime: 0ms (100th percentile); Memory Usage: 5.8MB (24th percentile).
@@ -34,8 +36,6 @@
 <h2>Incomplete Solutions:</h2>
 
 0002
-
-0006
 
 0008
 
