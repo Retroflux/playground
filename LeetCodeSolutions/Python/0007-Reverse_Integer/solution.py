@@ -1,9 +1,8 @@
+# https://leetcode.com/submissions/detail/718457400/
+# Date of Submission: 2022-06-09
 
-https://leetcode.com/submissions/detail/718457400/
-Date of Submission: 2022-06-09
-
-Runtime: 38 ms, faster than 76.09% of Python3 online submissions for Reverse Integer.
-Memory Usage: 13.8 MB, less than 96.91% of Python3 online submissions for Reverse Integer.
+# Runtime: 38 ms, faster than 76.09% of Python3 online submissions for Reverse Integer.
+# Memory Usage: 13.8 MB, less than 96.91% of Python3 online submissions for Reverse Integer.
 
 class Solution:
     def reverse(self, x: int) -> int:
