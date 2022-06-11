@@ -1,3 +1,9 @@
+# https://leetcode.com/submissions/detail/719233334/
+# Date of Submission: 2022-06-10
+
+# Runtime: 58 ms, faster than 84.14% of Python3 online submissions for Reverse Vowels of a String.
+# Memory Usage: 15.1 MB, less than 58.34% of Python3 online submissions for Reverse Vowels of a String.
+
 class Solution:
 
     def reverseVowels(self, s: str) -> str:
