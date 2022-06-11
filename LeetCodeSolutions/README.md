@@ -2,6 +2,8 @@
 
 [0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Two Sum; No Statistics Available because I re-arranged the provided array, cannot complete.
 
+[0002](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Add Two Numbers Runtime: 26ms (20th percentile); Memory Usage: 7MB (99th percentile) (see comments regarding runtime improvements). 
+
 [0003](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0003-Longest_Substring_Without_Repeating_Characters) (Python) Longest Substring No Repeating Characters Runtime: 60ms (92nd percentile); Memory Usage: 14.1MB (50th percentile).
 
 [0004](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0004-Median_of_Two_Sorted_Arrays) (Python) Median of Two Sorted Arrays Runtime: 85ms (98th percentile); Memory Usage: 14.3MB (25th percentile).
@@ -35,7 +37,6 @@
 
 <h2>Incomplete Solutions:</h2>
 
-0002
 
 0008
 
