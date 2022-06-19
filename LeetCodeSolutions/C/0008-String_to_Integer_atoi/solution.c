@@ -3,7 +3,7 @@ https://leetcode.com/submissions/detail/726059614/
 Date of Submission: 2022-06-19
 
 Runtime: 0 ms, faster than 100.00% of C online submissions for String to Integer (atoi).
-Memory Usage: 5.8 MB, less than 12.61% of C online submissions for String to Integer (atoi).
+Memory Usage: 5.6 MB, less than 85.18% of C online submissions for String to Integer (atoi).
 */
 
 int frontStrip(char * s, int sLen);
@@ -65,8 +65,7 @@ int myAtoi(char * s){
         }
         //handle negationFlag for summation of final digit
         if(negationFlag){
-            summation *= -1;
-            summation = (summation *10) + finalDigit*-1;
+            summation = (summation *-10) + finalDigit*-1;
         }else{
             summation = (summation *10) + finalDigit;
         }
@@ -77,6 +76,30 @@ int myAtoi(char * s){
     }
 
     return summation;
+}
+
+//sum any range of integer digits within the integer range
+int sumCharRange(char * s, int stripAmount, int rangeEnd){
+    int summation = 0;
+    int currInt = 0;
+    for(int i = stripAmount; i< rangeEnd; i++){
+        currInt = s[i] - '0';
+        summation = summation * 10 + currInt;
+    }
+    return summation;
+}
+
+//strips whitespace, returns index of first non-whitespace index
+int frontStrip(char * s, int sLen){
+    int stripAmount = 0;
+    for (int i = 0; i < sLen; i++){
+        if(s[i] == ' '){
+            stripAmount++;
+        }else{
+            break;
+        }
+    }
+    return stripAmount;
 }
 
 //sum any range of integer digits within the integer range

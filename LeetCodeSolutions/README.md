@@ -12,11 +12,11 @@
 
 [0006](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0006-Zigzag_Conversion) (Python) Zigzag Conversion Runtime: 70ms (71st percentile); Memory Usage: 14MB (51st percentile).
 
-[0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0007-Reverse_Integer) (Python) Reverse Integer Runtime: 38ms (76th percentile); Memory Usage: 13.8MB (97th percentile).
-<br>
+[0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0007-Reverse_Integer) (Python) Reverse Integer Runtime: 38ms (76th percentile); Memory Usage: 13.8MB (97th percentile).<br>
 [0007](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0007-Reverse_Integer) (C) Reverse Integer Runtime: 0ms (100th percentile); Memory Usage: 5.8MB (24th percentile).
 
-[0008](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0008-String_to_Integer_atoi) (Python) String to Integer atoi Runtime: 30ms (98th percentile); Memory Usage: 13.8MB (79th percentile).
+[0008](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0008-String_to_Integer_atoi) (Python) String to Integer atoi Runtime: 30ms (98th percentile); Memory Usage: 13.8MB (79th percentile).<br>
+[0008](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0008-String_to_Integer_atoi) (C) String to Integer atoi Runtime: 0ms (100th percentile); Memory Usage: 5.6MB (85th percentile).
 
 [0009](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0009-Palindrome_Number) (Python) Palindrome Number Runtime: 59ms (93rd percentile); Memory Usage: 13.8MB (97th percentile).
 
@@ -26,8 +26,7 @@
 
 [0014](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0014-Longest_Common_Prefix) (Python) Longest Common Prefix Runtime: 32ms(95th percentile); Memory Usage: 14MB (49th percentile).
 
-[0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).
-<br>
+[0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
@@ -36,8 +35,7 @@
 
 [0345](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0345-Reverse_Vowels_of_a_String) (Python) Reverse Vowels of a String Runtime: 58ms (84th percentile); Memory Usage: 15.1MB (58th percentile).
 
-[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).
-<br>
+[1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
 
 
