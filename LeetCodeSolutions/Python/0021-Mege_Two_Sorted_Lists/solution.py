@@ -7,7 +7,7 @@
 # https://leetcode.com/submissions/detail/743858145/
 # Date of Submission: 2022-07-10
 
-# Runtime: 46 ms, faster than 76.59% of Python3 online submissions for Merge Two Sorted Lists.
+# Runtime: 41 ms, faster than 88.01% of Python3 online submissions for Merge Two Sorted Lists.
 # Memory Usage: 13.9 MB, less than 78.98% of Python3 online submissions for Merge Two Sorted Lists.
 
 
