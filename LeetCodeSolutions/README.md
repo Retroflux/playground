@@ -32,6 +32,8 @@
 
 [0021](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0021-Merge_Two_Sorted_Lists) (Python) Merge Two Sorted List Runtime: 41ms (88th percentile); Memory Usage: 13.9MB (79th percentile).
 
+[0030](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0030-Substring_with_Concatentation_of_All_Words) (Python) Substring with Concatenation of All Words Runtime: XXms (XXth percentile); Memory Usage: XXMB (XXth percentile).
+
 [0088](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0088-Merge_Sorted_Array) (Python) Merge Sorted Array Runtime: 43ms (84th percentile); Memory Usage: 13.9MB (85th percentile).
 
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
