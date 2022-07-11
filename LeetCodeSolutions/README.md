@@ -30,6 +30,7 @@
 
 [0020](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0020-Valid_Parentheses) (Python) Valid Parentheses Runtime: 42ms (66th percentile); Memory Usage: 13.8MB (69th percentile).
 
+[0021](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0021-Merge_Two_Sorted_Lists) (Python) Merge Two Sorted List Runtime: 46ms (77th percentile); Memory Usage: 13.9MB (79th percentile).
 
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
@@ -58,10 +59,6 @@
 0018
 
 0019
-
-0020
-
-0021
 
 0022
 
