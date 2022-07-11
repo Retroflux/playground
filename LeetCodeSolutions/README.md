@@ -32,6 +32,8 @@
 
 [0021](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0021-Merge_Two_Sorted_Lists) (Python) Merge Two Sorted List Runtime: 41ms (88th percentile); Memory Usage: 13.9MB (79th percentile).
 
+[0088](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0088-Merge_Sorted_Array) (Python) Merge Sorted Array Runtime: 43ms (84th percentile); Memory Usage: 13.9MB (85th percentile).
+
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
@@ -191,8 +193,6 @@
 0086
 
 0087
-
-0088
 
 0089
 
