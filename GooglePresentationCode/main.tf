@@ -133,7 +133,7 @@ resource "aws_eip" "one" {
 }
 
 #resource "aws_instance" "app_client" {
-#  ami           = "ami-071e6cafc48327ca2" # Debian 11
+#  ami           = "ami-0d70546e43a941d70" # Ubuntu 22
 #  instance_type = "t2.micro"
 #  availability_zone = "us-west-2a"
 #  key_name = "main-key"
@@ -144,7 +144,7 @@ resource "aws_eip" "one" {
 #  }
 #  tags = {
 #    Name = "2022-07-18_GoogleCodeExample",
-#    AMI = "Debian11",
+#    AMI = "Ubuntu22",
 #    Resource_Type = "EC2"
 #  }
 #  user_data = <<EOF
@@ -168,7 +168,7 @@ resource "aws_eip" "one" {
 #}
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-071e6cafc48327ca2"
+  ami           = "ami-0d70546e43a941d70" #Ubuntu 22
   instance_type = "t2.micro"
   availability_zone = "us-west-2a"
   key_name = "main-key"
@@ -179,7 +179,7 @@ resource "aws_instance" "app_server" {
 
   tags = {
     Name = "2022-07-18_GoogleCodeExample",
-    AMI = "Debian11",
+    AMI = "Ubuntu22",
     Resource_Type = "EC2"
   }
   user_data = <<EOF
@@ -187,17 +187,11 @@ resource "aws_instance" "app_server" {
                 sudo apt update
                 sudo apt upgrade -y
                 sudo apt install git -y
-                sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev -y
-                wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz
-                tar -xf Python-3.9.1.tgz
-                cd Python-3.9.1
-                ./configure --enable-optimizations
-                make -j 2
-                sudo make altinstall
-                python3.9 --version
-                git clone https://github.com/Retroflux/playground/tree/main/GooglePresentationCode
-                make > output.txt
+                sudo apt install apache2 -y
+                sudo systemctl start apache2
                 sudo bash -c 'echo your very first web server > /var/www/html/index.html'
-                ./server 12052
                 EOF
 }
+#               git clone https://github.com/Retroflux/playground/tree/main/GooglePresentationCode
+#               make > output.txt
+#               ./server 12052
