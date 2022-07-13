@@ -1,4 +1,4 @@
-Names: Joshua Lange and Nicholas Macedo
+Names: 
 Course: CIS*3210
 Assignment 2
 Description: Multithreaded server that accepts input from any number of clients 
