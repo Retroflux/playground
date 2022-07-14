@@ -63,16 +63,16 @@ resource "aws_route_table_association" "a" {
 #security groups
 resource "aws_security_group" "open-port-12052" {
   name        = "port-12052"
-  description = "Allow Inbound-Only Traffic to 12052"
+  description = "Allow Outbound-Only Traffic to 12052"
   vpc_id      = aws_vpc.client-server-VPC.id
 
-    ingress {
+  ingress {
     description      = "HTTPS"
     from_port        = 443
     to_port          = 443
     protocol         = "tcp"
-#    cidr_blocks      = [aws_vpc.client-server-VPC] #TODO switch to VPC once it's working
-    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
+    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
+#    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
   }
 
   ingress {
@@ -80,8 +80,8 @@ resource "aws_security_group" "open-port-12052" {
     from_port        = 80
     to_port          = 80
     protocol         = "tcp"
-#    cidr_blocks      = [aws_vpc.client-server-VPC] #TODO switch to VPC once it's working
-    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
+    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
+#    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
   }
 
   ingress {
@@ -89,35 +89,45 @@ resource "aws_security_group" "open-port-12052" {
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
-#    cidr_blocks      = [aws_vpc.client-server-VPC] #TODO switch to VPC once it's working
-    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
-  }
-    ingress {
-    description      = "SocketProtocol"
-    from_port        = 12052
-    to_port          = 12052
-    protocol         = "tcp"
-#    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
-    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
+    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
+#    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
   }
   # TODO lock down after initial testing
   egress {
-    from_port        = 0
-    to_port          = 0
-    protocol         = "-1"
+    from_port        = 12052
+    to_port          = 12052
+    protocol         = "tcp"
     cidr_blocks      = ["0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
   }
 
   tags = {
-    Name = "allow_12052"
+    Name = "allow-outbound_12052"
   }
 }
+#security groups
+resource "aws_security_group" "server-open-port-12052" {
+  name        = "port-12052"
+  description = "Allow Inbound-Only Traffic to 12052"
+  vpc_id      = aws_vpc.client-server-VPC.id
+  ingress {
+    description      = "SocketProtocol"
+    from_port        = 12052
+    to_port          = 12052
+    protocol         = "tcp"
+    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block]
+  }
+
+  tags = {
+    Name = "allow-inbound_12052"
+  }
+}
+
 
 resource "aws_network_interface" "webserver_nic" {
   subnet_id = aws_subnet.subnet1.id
   private_ips = ["10.0.1.50"]
-  security_groups = [aws_security_group.open-port-12052.id]
+  security_groups = [aws_security_group.server-open-port-12052.id]
 }
 
 resource "aws_network_interface" "webclient1_nic" {
