@@ -213,3 +213,4 @@ resource "aws_instance" "app_client1" {
     Resource_Type = "EC2"
   }
   user_data = file("init-client.sh")
+}
