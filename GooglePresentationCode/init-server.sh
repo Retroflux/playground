@@ -10,7 +10,7 @@ apt install make -y
 apt install gcc -y
 mkdir serverCode
 git clone $REPOSITORY ./serverCode
-make -C serverCode/playground/GooglePresentationCode &> makeErrorOutput.txt
-./server 12052 &
 systemctl start apache2
 bash -c 'echo your very first web server > /var/www/html/index.html'
+make -C serverCode/GooglePresentationCode &> makeOutput.txt
+reboot

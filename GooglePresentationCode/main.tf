@@ -97,8 +97,8 @@ resource "aws_security_group" "open-port-12052" {
     from_port        = 12052
     to_port          = 12052
     protocol         = "tcp"
-#    cidr_blocks      = [aws_vpc.client-server-VPC] #TODO switch to VPC once it's working
-    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
+#    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
+    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
   }
   # TODO lock down after initial testing
   egress {
