@@ -10,5 +10,5 @@ apt install gcc -y
 mkdir clientCode
 git clone $REPOSITORY ./clientCode
 make -C clientCode/GooglePresentationCode &> makeOutput.txt
-chmod u+x clientCode
+chmod -R 755 /clientCode
 reboot

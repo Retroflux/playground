@@ -10,5 +10,5 @@ apt install gcc -y
 mkdir serverCode
 git clone $REPOSITORY ./serverCode
 make -C serverCode/GooglePresentationCode &> makeOutput.txt
-chmod u+x serverCode
+chmod -R 755 /serverCode
 reboot
