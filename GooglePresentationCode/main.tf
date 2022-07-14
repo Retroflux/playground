@@ -13,10 +13,6 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-
-
-
-
 #internet gateway
 resource "aws_internet_gateway" "app_gateway" {
   vpc_id = aws_vpc.client-server-VPC.id
@@ -124,6 +120,11 @@ resource "aws_network_interface" "webserver_nic" {
   security_groups = [aws_security_group.open-port-12052.id]
 }
 
+resource "aws_network_interface" "webclient1_nic" {
+  subnet_id = aws_subnet.subnet1.id
+  private_ips = ["10.0.1.51"]
+  security_groups = [aws_security_group.open-port-12052.id]
+}
 
 resource "aws_eip" "one" {
   vpc                       = true
@@ -132,65 +133,63 @@ resource "aws_eip" "one" {
   depends_on = [aws_internet_gateway.app_gateway]
 }
 
-#resource "aws_instance" "app_client" {
-#  ami           = "ami-0d70546e43a941d70" # Ubuntu 22
-#  instance_type = "t2.micro"
-#  availability_zone = "us-west-2a"
-#  key_name = "main-key"
+resource "aws_eip" "client1" {
+  vpc                       = true
+  network_interface         = aws_network_interface.webclient1_nic.id
+  associate_with_private_ip = "10.0.1.51"
+  depends_on = [aws_internet_gateway.app_gateway]
+}
 #
-#  network_interface {
-#    device_index         = 0
-#    network_interface_id = aws_network_interface.webserver_nic.id
-#  }
-#  tags = {
-#    Name = "2022-07-18_GoogleCodeExample",
-#    AMI = "Ubuntu22",
-#    Resource_Type = "EC2"
-#  }
-#  user_data = <<EOF
-#                #!/bin/bash
-#                sudo apt update
-#                sudo apt upgrade -y
-#                sudo apt install git -y
-#                sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev -y
-#                wget https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz
-#                tar -xf Python-3.9.1.tgz
-#                cd Python-3.9.1
-#                ./configure --enable-optimizations
-#                make -j 2
-#                sudo make altinstall
-#                python3.9 --version
-#                git clone https://github.com/Retroflux/playground/tree/main/GooglePresentationCode
-#                make > output.txt
-#                sudo bash -c 'echo your very first web server > /var/www/html/index.html'
-#                ./server 12052
-#                EOF
+#data "template_file" "server-init" {
+#  template = "${file("{path.module}/init.tpl")}"
 #}
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-0d70546e43a941d70" #Ubuntu 22
-  instance_type = "t2.micro"
+  ami               = "ami-0d70546e43a941d70" #Ubuntu 22
+  instance_type     = "t2.micro"
   availability_zone = "us-west-2a"
-  key_name = "main-key"
+  key_name          = "main-key"
   network_interface {
     device_index         = 0
     network_interface_id = aws_network_interface.webserver_nic.id
   }
 
   tags = {
-    Name = "2022-07-18_GoogleCodeExample",
-    AMI = "Ubuntu22",
+    Host          = "Server"
+    Name          = "2022-07-18_GoogleCodeExample"
+    AMI           = "Ubuntu22"
     Resource_Type = "EC2"
   }
-  user_data = <<EOF
-                #!/bin/bash
-                sudo apt update
-                sudo apt upgrade -y
-                sudo apt install git -y
-                sudo apt install apache2 -y
-                sudo systemctl start apache2
-                sudo bash -c 'echo your very first web server > /var/www/html/index.html'
-                EOF
+  user_data = file("init-server.sh")
+}
+
+resource "aws_instance" "app_client1" {
+  ami               = "ami-0d70546e43a941d70" # Ubuntu 22
+  instance_type     = "t2.micro"
+  availability_zone = "us-west-2a"
+  key_name          = "client1-key"
+
+  network_interface {
+    device_index         = 0
+    network_interface_id = aws_network_interface.webclient1_nic.id
+  }
+  tags = {
+    Host          = "Client-1"
+    Name          = "2022-07-18_GoogleCodeExample"
+    AMI           = "Ubuntu22"
+    Resource_Type = "EC2"
+  }
+  user_data = file("init-client.sh")
+  #  <<EOF
+  #                #!/bin/bash
+  #                sudo apt update
+  #                sudo apt upgrade -y
+  #                sudo apt install git -y
+  #                sudo apt install gcc -y
+  #                sudo apt install make -y
+  #                git clone https://github.com/Retroflux/playground/tree/main/GooglePresentationCode
+  #                EOF
+  #}
 }
 #               git clone https://github.com/Retroflux/playground/tree/main/GooglePresentationCode
 #               make > output.txt
