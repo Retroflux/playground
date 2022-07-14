@@ -61,38 +61,66 @@ resource "aws_route_table_association" "a" {
 }
 
 #security groups
-resource "aws_security_group" "open-port-12052" {
-  name        = "port-12052"
-  description = "Allow Outbound-Only Traffic to 12052"
+resource "aws_security_group" "standard-ports-client-server-common"{
+  name        = "standard-ports-client-server-common"
+  description = "Allow Traffic in and out on 22, 443, 80"
   vpc_id      = aws_vpc.client-server-VPC.id
 
+  #HTTPS
   ingress {
     description      = "HTTPS"
     from_port        = 443
     to_port          = 443
     protocol         = "tcp"
-    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
-#    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
+    cidr_blocks      = ["0.0.0.0/0"]
   }
-
+  #HTTPS
+  egress {
+    description      = "HTTPS"
+    from_port        = 443
+    to_port          = 443
+    protocol         = "tcp"
+    cidr_blocks      = ["0.0.0.0/0"]
+  }
+  #HTTP
   ingress {
     description      = "HTTP"
     from_port        = 80
     to_port          = 80
     protocol         = "tcp"
-    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
-#    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
+    cidr_blocks      = ["0.0.0.0/0"]
   }
-
+  #HTTP
+  egress {
+    description      = "HTTP"
+    from_port        = 80
+    to_port          = 80
+    protocol         = "tcp"
+    cidr_blocks      = ["0.0.0.0/0"]
+  }
+  #SSH
   ingress {
     description      = "SSH"
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
-    cidr_blocks      = [aws_vpc.client-server-VPC.cidr_block] #TODO switch to VPC once it's working
-#    cidr_blocks      = ["0.0.0.0/0"] #TODO switch to VPC once it's working
+    cidr_blocks      = ["0.0.0.0/0"]
   }
-  # TODO lock down after initial testing
+  #SSH
+  egress {
+    description      = "SSH"
+    from_port        = 22
+    to_port          = 22
+    protocol         = "tcp"
+    cidr_blocks      = ["0.0.0.0/0"]
+  }
+}
+
+resource "aws_security_group" "open-port-12052" {
+  name        = "port-12052"
+  description = "Allow Outbound-Only Traffic to 12052"
+  vpc_id      = aws_vpc.client-server-VPC.id
+
   egress {
     from_port        = 12052
     to_port          = 12052
@@ -110,6 +138,7 @@ resource "aws_security_group" "server-open-port-12052" {
   name        = "port-12052"
   description = "Allow Inbound-Only Traffic to 12052"
   vpc_id      = aws_vpc.client-server-VPC.id
+
   ingress {
     description      = "SocketProtocol"
     from_port        = 12052
@@ -127,13 +156,13 @@ resource "aws_security_group" "server-open-port-12052" {
 resource "aws_network_interface" "webserver_nic" {
   subnet_id = aws_subnet.subnet1.id
   private_ips = ["10.0.1.50"]
-  security_groups = [aws_security_group.server-open-port-12052.id]
+  security_groups = [aws_security_group.server-open-port-12052.id, aws_security_group.standard-ports-client-server-common]
 }
 
 resource "aws_network_interface" "webclient1_nic" {
   subnet_id = aws_subnet.subnet1.id
   private_ips = ["10.0.1.51"]
-  security_groups = [aws_security_group.open-port-12052.id]
+  security_groups = [aws_security_group.open-port-12052.id, aws_security_group.standard-ports-client-server-common]
 }
 
 resource "aws_eip" "one" {
