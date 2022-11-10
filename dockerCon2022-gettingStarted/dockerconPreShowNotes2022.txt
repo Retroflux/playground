@@ -1,0 +1,145 @@
+Hello world
+
+first command: docker run -d -p 80:80 docker/getting-started
+	- running this creates a small container on port 80
+	- localhost/turotial
+	- maintains a docker page on this address explaining the getting started process
+		-d - run the container in detached mode (in the background)
+		-p 80:80 - map port 80 of the host to port 80 in the container
+		docker/getting-started - the image to use
+	- The name is randomly created
+
+A container is a runtime (active process) that will be running on your machine. DockerHub is a 
+place to find them. Let's try installing Fedora via Docker.
+
+*Tags*
+
+Associated with the container. 
+If you don't specify the tag (at least for Fedora), it will default to 'latest'.
+
+With docker, we're only pulling the base image that we need to get the system running.
+	-> intead of 2GB, it's 54mb. Using the resources on the host machine, you can avoid downloading 
+	things that would otherwise be needed if you wanted the full OS.
+
+	docker run --help //this is where all the options are
+
+	docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+	docker run fedora echo hello world //prints hello world
+
+	docker run -i -t fedora //allows for a cmd prompt with a stdin command to work.
+
+	yum install figlet
+
+	figlet hello world
+
+	exit
+
+
+run creates a completely new container from the base. The things (figlet) that were added are independent to the previous container before - completely separate file systems. 
+
+Theoretically, you can run any container on any host (disclaimer: windows typically needs to be running on windows)
+The old containers are still on the hard drive for you to re-use.
+
+Typically, you're not using the interactive command line version, though! The CLI mode is mostly for debugging. Usually it's a non-interactive way. Detaching is a good option.
+
+docker run -d jpetazzo/clock
+
+From the docker desktop app, you can stop this (even though it's running "in the background"), but you can also stop it from the command line.
+
+
+docker ps
+
+most commands in docker run on container ids
+
+
+
+docker run jpetazzo/clock
+docker stop <name>
+
+OR
+
+docker stop <container ID>
+
+docker logs -f --tail 3 5eee74533141
+
+figlet/Dockerfile
+
+Before the break, we were using figlet to display text. Too many steps to actually install, build, and then type figlet. We want the image to take in words and just have it execute. This is more real-world because we just want the docker image to do what we want it to do. 
+
+Dockerfiles allow us to do this. Here are some keywords:
+
+FROM - pulls a base image
+RUN - issues a command to the docker image
+
+every time you change the docker file, everything after the line change will be invalidated and will have to be run again.
+
+docker build -it figlet . //creates an image that has figlet on a Fedora base.
+
+docker run -it figlet //runs the fedora figlet tagged image.
+
+docker build -t retroflux/figlet:latest .  //pushes the image to dockerhub
+
+you can then push it to the docker hub through docker desktop, and then pull it with 
+
+docker pull retroflux/figlet
+
+Dockerizing Old Code
+
+For this part, we'll be dockerizing some Python 3.9 code. For consistency, we'll use that over the latest.
+
+Dockerfile
+
+FROM python:3.9-slim
+
+WORKDIR /app  //where you want the docker code to work in
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . . // this might cause issues, but most of it is what we want. 
+EXPOSE 5000
+CMD ["python3", "-m", "flask", "run", "--host 0.0.0.0"]
+
+
+.dockerignore
+
+.env
+.
+
+docker image prune
+docker container prune
+docker build -t ti4-workshop
+
+docker run -d -p 5000:5000 -e .env --name ti4workshopfromthecli ti4-workshop //when the macbook port 5000 is hit, instead hit docker port 5000
+
+
+docker/awesome-compose  //great starting point for compose files
+
+
+For my stuff, I did: 
+
+FROM python:latest
+COPY . .
+WORKDIR ./Day1/
+
+
+CMD ["python3", "day1SolutionCodePart2.py"]
+
+then ran
+
+  880  docker build -t aocimage .
+  881  docker run aocimage
+
+from the directory holding the Advent of Code Dockerfile.
+
+
+The rest of the pre-con presentation was really only useful if you have a webapp that could be reasonably followed along with. They discussed compose and the nuances of it. 
+
+The --help for all of docker commands alonside the docs pages are super powerful when used properly.
+
+
+
+
+
+
+
