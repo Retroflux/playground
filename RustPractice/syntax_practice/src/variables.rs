@@ -33,6 +33,6 @@ pub fn run(){
     print!("Current {} account balance of ${}, less the credit card balance of ${} equals $", savings_account_name, savings_account_balance, credit_card_balance);
     savings_account_balance -= credit_card_balance;
     credit_card_balance = 0;
-    println!("{}\n",savings_account_balance);
+    println!("Savings = {}; Credit card = ${}\n",savings_account_balance, credit_card_balance);
 
 }
