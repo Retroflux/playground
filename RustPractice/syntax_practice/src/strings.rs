@@ -31,5 +31,9 @@ pub fn run(){
 
    println!("String is empty: {:?}", is_the_string_empty);
 
+   //Loop through strings  
+   for word in growable_string.split_whitespace(){
+      println!("{}\n",word);
+   }
 
 }
