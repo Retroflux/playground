@@ -20,4 +20,7 @@ fn main() {
     least_common_multiple::generalized_lcm_finder(&mut [10,15,3,10]);
     least_common_multiple::generalized_lcm_finder(&mut [2,7,5,10]);
     least_common_multiple::generalized_lcm_finder(&mut [2,2,4,4]);
+    least_common_multiple::generalized_lcm_finder(&mut []);
+    least_common_multiple::generalized_lcm_finder(&mut [2]);
+    least_common_multiple::generalized_lcm_finder(&mut [2,3]);
 }

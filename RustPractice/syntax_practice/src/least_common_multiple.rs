@@ -55,5 +55,4 @@ pub fn generalized_lcm_finder(set_of_numbers: &mut [i32]){
     }
 
     println!("The lowest common multiple of {:?} is {}", set_of_numbers, counter);
-
 }
