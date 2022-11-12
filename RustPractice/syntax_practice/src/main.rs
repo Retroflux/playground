@@ -5,6 +5,8 @@ mod types;
 mod strings;
 mod control_flow;
 mod least_common_multiple;
+mod tuples;
+mod arrays;
 
 fn main() {
     println!("Hello, world!");
@@ -23,4 +25,6 @@ fn main() {
     least_common_multiple::generalized_lcm_finder(&mut []);
     least_common_multiple::generalized_lcm_finder(&mut [2]);
     least_common_multiple::generalized_lcm_finder(&mut [2,3]);
+    tuples::run();
+    arrays::run();
 }
