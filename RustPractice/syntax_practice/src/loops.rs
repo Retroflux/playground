@@ -6,7 +6,7 @@ pub fn run(){
 
       count+=1;
 
-      if count % 3 == 0 && count % 5 == 0{
+      if count % 15 == 0{
          print!("fizzbuzz ");
       }else if count % 3 == 0{
          print!("fizz ");
