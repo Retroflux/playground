@@ -3,6 +3,8 @@
 str = primitive string, fixed in length, immutable
 String = growable, heap-allocated data structure; used when you need to modify or own data
 
+String functions: https://doc.rust-lang.org/std/string/struct.String.html
+
 */
 
 pub fn run(){
@@ -37,3 +39,4 @@ pub fn run(){
    }
 
 }
+

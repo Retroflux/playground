@@ -5,6 +5,13 @@ mod types;
 mod strings;
 mod control_flow;
 mod least_common_multiple;
+mod tuples;
+mod arrays;
+mod vectors;
+mod loops;
+mod functions;
+mod pointers_ref;
+mod structs;
 
 fn main() {
     println!("Hello, world!");
@@ -20,4 +27,14 @@ fn main() {
     least_common_multiple::generalized_lcm_finder(&mut [10,15,3,10]);
     least_common_multiple::generalized_lcm_finder(&mut [2,7,5,10]);
     least_common_multiple::generalized_lcm_finder(&mut [2,2,4,4]);
+    least_common_multiple::generalized_lcm_finder(&mut []);
+    least_common_multiple::generalized_lcm_finder(&mut [2]);
+    least_common_multiple::generalized_lcm_finder(&mut [2,3]);
+    tuples::run();
+    arrays::run();
+    vectors::run();
+    loops::run();
+    functions::run();
+    pointers_ref::run();
+    structs::run();
 }
