@@ -20,4 +20,26 @@ pub fn run(){
          break;
       }
    }
+
+   //reverse code as the infinite loop, but with a known exit value and printing one value per line beside the value of count 
+   while count > 0 {
+
+      print!("Count = {count}, fizzbuzz value = ");
+      count-=1;
+      if count % 15 == 0{
+         println!("fizzbuzz ");
+      }else if count % 3 == 0{
+         println!("fizz ");
+      }else if count % 5 == 0{
+         println!("buzz ");
+      }else{
+         println!("{count} ");
+      }
+
+      if count >=101{
+         break;
+      }
+   }
+
+
 }
