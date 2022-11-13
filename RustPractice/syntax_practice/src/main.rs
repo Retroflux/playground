@@ -10,6 +10,8 @@ mod arrays;
 mod vectors;
 mod loops;
 mod functions;
+mod pointers_ref;
+mod structs;
 
 fn main() {
     println!("Hello, world!");
@@ -33,4 +35,6 @@ fn main() {
     vectors::run();
     loops::run();
     functions::run();
+    pointers_ref::run();
+    structs::run();
 }
