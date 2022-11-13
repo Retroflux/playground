@@ -9,6 +9,7 @@ mod tuples;
 mod arrays;
 mod vectors;
 mod loops;
+mod functions;
 
 fn main() {
     println!("Hello, world!");
@@ -31,4 +32,5 @@ fn main() {
     arrays::run();
     vectors::run();
     loops::run();
+    functions::run();
 }
