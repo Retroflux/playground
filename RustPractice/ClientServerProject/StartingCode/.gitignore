@@ -1,3 +1,10 @@
+# VS Code ignores
+**/.vscode/*
+settings.json
+
+# Rust-specific ignores
+
+
 # Local .terraform directories
 **/.terraform/*
 
