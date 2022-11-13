@@ -7,6 +7,8 @@ mod control_flow;
 mod least_common_multiple;
 mod tuples;
 mod arrays;
+mod vectors;
+mod loops;
 
 fn main() {
     println!("Hello, world!");
@@ -27,4 +29,6 @@ fn main() {
     least_common_multiple::generalized_lcm_finder(&mut [2,3]);
     tuples::run();
     arrays::run();
+    vectors::run();
+    loops::run();
 }
