@@ -12,6 +12,7 @@ mod loops;
 mod functions;
 mod pointers_ref;
 mod structs;
+mod cargo_cli;
 
 fn main() {
     println!("Hello, world!");
@@ -37,4 +38,5 @@ fn main() {
     functions::run();
     pointers_ref::run();
     structs::run();
+    cargo_cli::run();
 }
