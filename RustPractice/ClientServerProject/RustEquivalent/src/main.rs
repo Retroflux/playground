@@ -1,5 +1,4 @@
-use std::net;
+fn main(){
 
-fn main() {
-    println!("Hello, world!");
+   return
 }
