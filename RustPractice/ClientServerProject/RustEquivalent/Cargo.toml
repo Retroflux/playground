@@ -10,4 +10,3 @@ edition = "2021"
 [[bin]]
 name = "server"
 path = "src/server.rs"
-
