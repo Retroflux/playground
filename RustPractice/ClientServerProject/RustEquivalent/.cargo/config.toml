@@ -1,0 +1,4 @@
+[alias]
+
+serverrun = "cargo run --bin server"
+clientrun = "cargo run --bin client"
