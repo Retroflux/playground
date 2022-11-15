@@ -58,7 +58,7 @@ fn main() -> std::io::Result<()> {
     let mut receiving_address = String::from("127.0.0.1:");
     receiving_address.push_str(&port_number.to_string());
 
-    let listener = TcpListener::bind(receiving_address)?;
+    let listener = TcpListener::bind(receiving_address).unwrap();
 
     for stream in listener.incoming() {
         handle_client(&mut stream?);
