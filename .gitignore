@@ -132,3 +132,4 @@ dmypy.json
 .pyre/
 /aws_practice/keypairs/devassoc.ppk
 /aws_practice/c02code/chapter-02/private_notes.txt
+/PandasPractice/
