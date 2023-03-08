@@ -34,6 +34,8 @@
 
 [0021](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0021-Merge_Two_Sorted_Lists) (Python) Merge Two Sorted List Runtime: 41ms (88th percentile); Memory Usage: 13.9MB (79th percentile).
 
+[0023](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0023-Merge_k_Sorted_Lists) (Python) Merge k Sorted Lists Runtime: 4298ms (9th percentile); Memory Usage: 17.5MB (90th percentile).
+
 [0030](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0030-Substring_with_Concatenation_of_All_Words) (Python) Substring with Concatenation of All Words Clears 151/177 Test Cases before memory limit exceeded.
 
 [0066](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0066-Plus_One) (Python) Plus One Runtime: 31ms (96th percentile); Memory Usage: 13.9MB (58th percentile).

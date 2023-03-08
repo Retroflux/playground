@@ -6,7 +6,7 @@
 
 
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
+    def maxArea(self, height: list[int]) -> int:
         maxArea = 0
         rightPtr = len(height)-1
         windowSize = rightPtr
