@@ -47,6 +47,8 @@
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
+[0142](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0142-Linked_List_Cycle_II) (Python) Linked List Cycle II Runtime: 51ms (74th percentile); Memory Usage: 17.3MB (90th percentile).
+
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
 [0344](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0344-Reverse_String) (Python) Reverse String Runtime: 211ms (81st percentile); Memory Usage: 18.4MB (87th percentile).
