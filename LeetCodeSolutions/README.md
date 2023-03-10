@@ -61,6 +61,8 @@
 
 [0383](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0383-Ransom_Note) (Python) Ransom Note Runtime: 39ms (93rd percentile); Memory Usage: 14MB (99th percentile)
 
+[0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
+
 
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
