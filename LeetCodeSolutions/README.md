@@ -55,6 +55,8 @@
 
 [0345](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0345-Reverse_Vowels_of_a_String) (Python) Reverse Vowels of a String Runtime: 58ms (84th percentile); Memory Usage: 15.1MB (58th percentile).
 
+[0382](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0382-Linked_List_Random_Node) (Python) Reverse Vowels of a String Runtime: 58ms (84th percentile); Memory Usage: 15.1MB (58th percentile).
+
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
 
