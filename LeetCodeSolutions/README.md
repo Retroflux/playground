@@ -63,6 +63,7 @@
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
 
+[1490](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1490-Count_Odd_Numbers_in_an_Interval_Range) (Python)  Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
 
 <h2>Incomplete Solutions:</h2>
 
