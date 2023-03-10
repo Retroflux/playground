@@ -51,6 +51,8 @@
 
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
+[0191](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0191-Number_of_1_Bits) (Python) Number of 1 Bits Runtime: 34ms (58th percentile); Memory Usage: 13.8MB (91st percentile).
+
 [0344](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0344-Reverse_String) (Python) Reverse String Runtime: 211ms (81st percentile); Memory Usage: 18.4MB (87th percentile).
 
 [0345](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0345-Reverse_Vowels_of_a_String) (Python) Reverse Vowels of a String Runtime: 58ms (84th percentile); Memory Usage: 15.1MB (58th percentile).
