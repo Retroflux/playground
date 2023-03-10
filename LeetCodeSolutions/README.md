@@ -65,6 +65,9 @@
 
 [1490](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1490-Count_Odd_Numbers_in_an_Interval_Range) (Python)  Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
 
+[1491](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1491-Average_Salary_Excluding_the_Minimum_and_Maximum_Salary) (Python)  Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
+
+
 <h2>Incomplete Solutions:</h2>
 
 
