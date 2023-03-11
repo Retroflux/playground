@@ -63,6 +63,7 @@
 
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
+[1281](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1281-Subtract_the_Product_and_the_Sum_of_Digits_of_an_Integer) (Python) Subtract the Product and the Sum of Digits of an Integer Runtime: 27ms (87th percentile); Memory Usage: 13.8MB (92nd percentile)
 
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
