@@ -55,6 +55,8 @@
 
 [0205](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0205-Isomorphic_Strings) (Python) Isomorphic Strings Runtime: 36ms (88th percentile); Memory Usage: 14.1MB (81st percentile).
 
+[0206](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0206-Reverse_Linked_List) (Python) Reverse Linked List Runtime: 35ms (79th percentile); Memory Usage: 15.4MB (89th percentile).
+
 [0344](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0344-Reverse_String) (Python) Reverse String Runtime: 211ms (81st percentile); Memory Usage: 18.4MB (87th percentile).
 
 [0345](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0345-Reverse_Vowels_of_a_String) (Python) Reverse Vowels of a String Runtime: 58ms (84th percentile); Memory Usage: 15.1MB (58th percentile).
