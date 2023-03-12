@@ -78,5 +78,6 @@
 
 [1490](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1490-Count_Odd_Numbers_in_an_Interval_Range) (Python)  Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
 
-[1491](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1491-Average_Salary_Excluding_the_Minimum_and_Maximum_Salary) (Python)  Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
+[1491](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1491-Average_Salary_Excluding_the_Minimum_and_Maximum_Salary) (Python) Average Salary Excluding the Minimum and Maximum Salary Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
 
+[1779](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1779-Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate) (Python) Find Nearest Point That Has the Same X or Y Coordinate Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
