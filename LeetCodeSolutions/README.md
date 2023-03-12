@@ -69,6 +69,8 @@
 
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
+[0976](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/976-Largest_Perimeter_Triangle) (Python) Largest Perimeter Triangle Runtime: 189ms (91st percentile); Memory Usage: 15.4MB (36th percentile)
+
 [1281](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1281-Subtract_the_Product_and_the_Sum_of_Digits_of_an_Integer) (Python) Subtract the Product and the Sum of Digits of an Integer Runtime: 27ms (87th percentile); Memory Usage: 13.8MB (92nd percentile)
 
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
