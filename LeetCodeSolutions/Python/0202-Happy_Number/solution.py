@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/isomorphic-strings/submissions/913303291/
+# https://leetcode.com/problems/happy-number/submissions/914567135/
 # Date of Submission: 2023-03-11
 
 # Runtime: 35 ms, faster than 72% of Python3 online submissions for Happy Number.

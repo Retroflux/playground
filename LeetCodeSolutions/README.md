@@ -88,3 +88,5 @@
 [1502] bro this was a one-liner I'm not uploading code for this
 
 [1779](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1779-Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate) (Python) Find Nearest Point That Has the Same X or Y Coordinate Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
+
+[1790](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1790-Check_if_One_String_Swap_Can_Make_Strings_Equal) (Python) Check if One String Swap Can Make Strings Equal Runtime: 29ms (83rd percentile); Memory Usage: 13.7MB (97thg percentile)
