@@ -71,7 +71,9 @@
 
 [0392](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0392-Is_Subsequence) (Python) Is Subsequence Runtime: 32ms (74th percentile); Memory Usage: 13.9MB (71st percentile)
 
-[0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
+[0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
+
+[0876](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0876-Middle_of_the_Linked_List) (Python) Middle of the Linked List Runtime: 27ms (90th percentile); Memory Usage: 13.8MB (45th percentile)
 
 [0976](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/976-Largest_Perimeter_Triangle) (Python) Largest Perimeter Triangle Runtime: 189ms (91st percentile); Memory Usage: 15.4MB (36th percentile)
 
