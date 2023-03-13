@@ -44,6 +44,8 @@
 
 [0088](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0088-Merge_Sorted_Array) (Python) Merge Sorted Array Runtime: 43ms (84th percentile); Memory Usage: 13.9MB (85th percentile).
 
+[0101](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0101-Symmetric_Tree) (Python) Symmetric Tree Runtime: 32ms (83rd percentile); Memory Usage: 13.9MB (90th percentile).
+
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
@@ -52,6 +54,8 @@
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
 
 [0191](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0191-Number_of_1_Bits) (Python) Number of 1 Bits Runtime: 34ms (58th percentile); Memory Usage: 13.8MB (91st percentile).
+
+[0202](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0202-Happy_Number) (Python) Happy Number Runtime: 35ms (72nd percentile); Memory Usage: 13.7MB (95th percentile).
 
 [0205](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0205-Isomorphic_Strings) (Python) Isomorphic Strings Runtime: 36ms (88th percentile); Memory Usage: 14.1MB (81st percentile).
 
@@ -79,5 +83,8 @@
 [1490](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1490-Count_Odd_Numbers_in_an_Interval_Range) (Python)  Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
 
 [1491](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1491-Average_Salary_Excluding_the_Minimum_and_Maximum_Salary) (Python) Average Salary Excluding the Minimum and Maximum Salary Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
+
+[1501] bro this was a one-liner I'm not uploading code for this
+[1502] bro this was a one-liner I'm not uploading code for this
 
 [1779](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1779-Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate) (Python) Find Nearest Point That Has the Same X or Y Coordinate Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
