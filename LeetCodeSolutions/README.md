@@ -79,6 +79,8 @@
 
 [0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0496-Next_Greater_Element_I) (Python) Next Greater Element Runtime: 149ms (14th percentile); Memory Usage: 14.1MB (93rd percentile)
 
+[0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0589-N-ary_Tree_Preorder_Traversal) (Python) N-ary Tree Preorder Traversal: 45ms (93rd percentile); Memory Usage: 16.3MB (10th percentile)
+
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
 [0876](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0876-Middle_of_the_Linked_List) (Python) Middle of the Linked List Runtime: 27ms (90th percentile); Memory Usage: 13.8MB (45th percentile)
