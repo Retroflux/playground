@@ -77,11 +77,15 @@
 
 [0409](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0409-Longest_Palindrome) (Python) Longest Palindrome Runtime: 35ms (60th percentile); Memory Usage: 13.8MB (96th percentile)
 
+[0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0496-Next_Greater_Element_I) (Python) Next Greater Element Runtime: 149ms (14th percentile); Memory Usage: 14.1MB (93rd percentile)
+
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
 [0876](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0876-Middle_of_the_Linked_List) (Python) Middle of the Linked List Runtime: 27ms (90th percentile); Memory Usage: 13.8MB (45th percentile)
 
 [0976](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/976-Largest_Perimeter_Triangle) (Python) Largest Perimeter Triangle Runtime: 189ms (91st percentile); Memory Usage: 15.4MB (36th percentile)
+
+[1232](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1232-Check_If_It_is_a_Straight_Line) (Python) Check If It is a Straight Line Runtime: 60ms (82nd percentile); Memory Usage: 14.3MB (70th percentile)
 
 [1281](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1281-Subtract_the_Product_and_the_Sum_of_Digits_of_an_Integer) (Python) Subtract the Product and the Sum of Digits of an Integer Runtime: 27ms (87th percentile); Memory Usage: 13.8MB (92nd percentile)
 
