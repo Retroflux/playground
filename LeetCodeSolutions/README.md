@@ -49,6 +49,8 @@
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
+[0129](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0129-Sum_Root_to_Leaf_Numbers) (Python) Sum Root to Leaf Numbers Runtime: 28ms (89th percentile); Memory Usage: 13.8MB (96th percentile).
+
 [0142](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0142-Linked_List_Cycle_II) (Python) Linked List Cycle II Runtime: 51ms (74th percentile); Memory Usage: 17.3MB (90th percentile).
 
 [0167](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0167-Two_Sum_Input_Array_Is_Sorted) (C) Two Sum - Input Array is Sorted Runtime: 6ms (100th percentile); Memory Usage: 7.2MB (71st percentile).
@@ -70,6 +72,8 @@
 [0383](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0383-Ransom_Note) (Python) Ransom Note Runtime: 39ms (93rd percentile); Memory Usage: 14MB (99th percentile)
 
 [0392](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0392-Is_Subsequence) (Python) Is Subsequence Runtime: 32ms (74th percentile); Memory Usage: 13.9MB (71st percentile)
+
+[0409](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0409-Longest_Palindrome) (Python) Longest Palindrome Runtime: 35ms (60th percentile); Memory Usage: 13.8MB (96th percentile)
 
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
