@@ -46,6 +46,8 @@
 
 [0101](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0101-Symmetric_Tree) (Python) Symmetric Tree Runtime: 32ms (83rd percentile); Memory Usage: 13.9MB (90th percentile).
 
+[0121](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0121-Best_Time_to_Buy_and_Sell_Stock) (Python) Best Time to Buy and Sell Stock Runtime: 936ms (94th percentile); Memory Usage: 24.8MB (97th percentile).
+
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
