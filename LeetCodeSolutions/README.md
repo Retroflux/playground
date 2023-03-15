@@ -89,6 +89,8 @@
 
 [0876](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0876-Middle_of_the_Linked_List) (Python) Middle of the Linked List Runtime: 27ms (90th percentile); Memory Usage: 13.8MB (45th percentile)
 
+[0958](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/958-Check_Completeness_of_a_Binary_Tree) (Python) Check Completeness of a Binary Tree Runtime: 30ms (94th percentile); Memory Usage: 13.9MB (61st percentile)
+
 [0976](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/976-Largest_Perimeter_Triangle) (Python) Largest Perimeter Triangle Runtime: 189ms (91st percentile); Memory Usage: 15.4MB (36th percentile)
 
 [1232](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1232-Check_If_It_is_a_Straight_Line) (Python) Check If It is a Straight Line Runtime: 60ms (82nd percentile); Memory Usage: 14.3MB (70th percentile)
