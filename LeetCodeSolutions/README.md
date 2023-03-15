@@ -105,6 +105,8 @@
 
 [1588](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1588-Sum_of_All_Odd_Length_Subarrays) (Python) Sum of All Odd Length Subarrays Runtime: 64ms (59th percentile); Memory Usage: 13.7MB (94th percentile)
 
+[1672](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1672-Richest_Customer_Wealth) (Python) Richest Customer Wealth Runtime: 46ms (98th percentile); Memory Usage: 13.8MB (97th percentile)
+
 
 [1779](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1779-Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate) (Python) Find Nearest Point That Has the Same X or Y Coordinate Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
 
