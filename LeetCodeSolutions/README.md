@@ -83,7 +83,9 @@
 
 [0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0496-Next_Greater_Element_I) (Python) Next Greater Element Runtime: 149ms (14th percentile); Memory Usage: 14.1MB (93rd percentile)
 
-[0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0589-N-ary_Tree_Preorder_Traversal) (Python) N-ary Tree Preorder Traversal: 45ms (93rd percentile); Memory Usage: 16.3MB (10th percentile)
+[0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0496-Next_Greater_Element_I) (Python) Next Greater Element I: 149ms (14th percentile); Memory Usage: 14.1MB (93rd percentile)
+
+[0566](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0556-Reshape_the_Matrix) (Python) Reshape the Matrix 82ms (96th percentile); Memory Usage: 14.7MB (70th percentile)
 
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
@@ -106,6 +108,8 @@
 
 [1501] bro this was a one-liner I'm not uploading code for this
 [1502] bro this was a one-liner I'm not uploading code for this
+
+[1572](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1572-Matrix_Diagonal_Sum) (Python) Matrix Diagonal Sum Runtime: 106ms (87th percentile); Memory Usage: 14MB (89th percentile)
 
 [1588](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1588-Sum_of_All_Odd_Length_Subarrays) (Python) Sum of All Odd Length Subarrays Runtime: 64ms (59th percentile); Memory Usage: 13.7MB (94th percentile)
 
