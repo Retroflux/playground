@@ -16,7 +16,7 @@
 # Otherwise, output the original matrix.
 
 class Solution:
-    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+    def matrixReshape(self, mat: list[list[int]], r: int, c: int) -> list[list[int]]:
         # ensure it's not the same matrix or an impossible matrix
         if len(mat) == r and len(mat[0]) == c:
             return mat

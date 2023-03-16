@@ -13,7 +13,7 @@
 
 #fun ternary operator solution that produces rapid runtime and low memory usage
 class Solution:
-    def maximumWealth(self, accounts: List[List[int]]) -> int:
+    def maximumWealth(self, accounts: list[list[int]]) -> int:
         maxWealth = 0
 
         for account in accounts:

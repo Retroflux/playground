@@ -11,7 +11,7 @@
 #  all the elements on the secondary diagonal that are not part of the primary diagonal.
 
 class Solution:
-    def diagonalSum(self, mat: List[List[int]]) -> int:
+    def diagonalSum(self, mat: list[list[int]]) -> int:
         sum = 0
         size = len(mat)
         for i in range(0, len(mat)):

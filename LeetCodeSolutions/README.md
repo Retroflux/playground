@@ -87,6 +87,8 @@
 
 [0566](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0556-Reshape_the_Matrix) (Python) Reshape the Matrix 82ms (96th percentile); Memory Usage: 14.7MB (70th percentile)
 
+[0704](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0704-Binary_Search) (Python) Binary Search Runtime: 233ms (95th percentile); Memory Usage: 15.4MB (97th percentile)
+
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
 [0876](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0876-Middle_of_the_Linked_List) (Python) Middle of the Linked List Runtime: 27ms (90th percentile); Memory Usage: 13.8MB (45th percentile)
