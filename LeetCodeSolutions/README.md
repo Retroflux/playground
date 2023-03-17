@@ -79,6 +79,8 @@
 
 [0383](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0383-Ransom_Note) (Python) Ransom Note Runtime: 39ms (93rd percentile); Memory Usage: 14MB (99th percentile)
 
+[0389](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0389-Find_the_Difference) (Python) Find the Difference Runtime: 23ms (100th percentile); Memory Usage: 13.9MB (63rd percentile)
+
 [0392](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0392-Is_Subsequence) (Python) Is Subsequence Runtime: 32ms (74th percentile); Memory Usage: 13.9MB (71st percentile)
 
 [0409](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0409-Longest_Palindrome) (Python) Longest Palindrome Runtime: 35ms (60th percentile); Memory Usage: 13.8MB (96th percentile)
