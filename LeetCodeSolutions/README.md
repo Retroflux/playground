@@ -44,6 +44,9 @@
 
 [0088](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0088-Merge_Sorted_Array) (Python) Merge Sorted Array Runtime: 43ms (84th percentile); Memory Usage: 13.9MB (85th percentile).
 
+[0098](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0098-Validate_Binary_Search_Tree) (Python) Validate Binary Search Tree Runtime: 43ms (81st percentile); Memory Usage: 16.4MB (71st percentile).
+
+
 [0101](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0101-Symmetric_Tree) (Python) Symmetric Tree Runtime: 32ms (83rd percentile); Memory Usage: 13.9MB (90th percentile).
 
 [0102](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0102-Binary_Tree_Level_Order_Traversal) (Python) Binary Tree Level Order Traversal Runtime: 32ms (86rd percentile); Memory Usage: 14.1MB (98th percentile).
@@ -66,6 +69,9 @@
 [0205](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0205-Isomorphic_Strings) (Python) Isomorphic Strings Runtime: 36ms (88th percentile); Memory Usage: 14.1MB (81st percentile).
 
 [0206](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0206-Reverse_Linked_List) (Python) Reverse Linked List Runtime: 35ms (79th percentile); Memory Usage: 15.4MB (89th percentile).
+
+[0235](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0235-Lowest_Common_Ansestor_of_a_Binary_Search_Tree) (Python) Lowest Common Ancestor of a Binary Search Tree Runtime: 72ms (94th percentile); Memory Usage: 18.7MB (96th percentile).
+
 
 [0278](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0278-First_Bad_Version) (Python) First Bad Version Runtime: 30ms (73rd percentile); Memory Usage: 13.7MB (95th percentile).
 
