@@ -123,6 +123,8 @@
 
 [1309](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1309-Decrypt_String_from_Alphabet_to_Integer_Mapping) (Python) Decrypt String from Alphabet to Integer Mapping Runtime: 28ms (90th percentile); Memory Usage: 13.9MB (55th percentile)
 
+[1472](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1472-Design_Browser_History) (Python) Design Browser History Runtime: 217ms (87th percentile); Memory Usage: 16.7MB (71st percentile)
+
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
 
