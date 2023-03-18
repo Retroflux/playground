@@ -113,6 +113,8 @@
 
 [0958](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/958-Check_Completeness_of_a_Binary_Tree) (Python) Check Completeness of a Binary Tree Runtime: 30ms (94th percentile); Memory Usage: 13.9MB (61st percentile)
 
+[0953](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/953-Verifying_an_Alien_Dictionary) (Python) Verifying an Alien Dictionary Runtime: 40ms (50th percentile); Memory Usage: 13.7MB (99th percentile)
+
 [0976](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/976-Largest_Perimeter_Triangle) (Python) Largest Perimeter Triangle Runtime: 189ms (91st percentile); Memory Usage: 15.4MB (36th percentile)
 
 [1232](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1232-Check_If_It_is_a_Straight_Line) (Python) Check If It is a Straight Line Runtime: 60ms (82nd percentile); Memory Usage: 14.3MB (70th percentile)
