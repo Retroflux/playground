@@ -103,6 +103,8 @@
 
 [0704](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0704-Binary_Search) (Python) Binary Search Runtime: 233ms (95th percentile); Memory Usage: 15.4MB (97th percentile)
 
+[0709] To Lower Case; I'm not uploading a Python solution for this lol, just use .lower()
+
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
 [0733](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0733-Flood_Fill) (Python) Flood Fill Runtime: 62ms (100th percentile); Memory Usage: 14MB (85th percentile)
@@ -116,6 +118,8 @@
 [1232](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1232-Check_If_It_is_a_Straight_Line) (Python) Check If It is a Straight Line Runtime: 60ms (82nd percentile); Memory Usage: 14.3MB (70th percentile)
 
 [1281](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1281-Subtract_the_Product_and_the_Sum_of_Digits_of_an_Integer) (Python) Subtract the Product and the Sum of Digits of an Integer Runtime: 27ms (87th percentile); Memory Usage: 13.8MB (92nd percentile)
+
+[1309](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1309-Decrypt_String_from_Alphabet_to_Integer_Mapping) (Python) Decrypt String from Alphabet to Integer Mapping Runtime: 28ms (90th percentile); Memory Usage: 13.9MB (55th percentile)
 
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1480-Running_Sum_of_1d_Array) (Python) Running Sum of 1D Array Runtime: 51ms (69th percentile); Memory Usage: 14.1MB (69th percentile).<br>
 [1480](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/1480-Running_Sum_of_1d_Array) (C) Running Sum of 1D Array Runtime: 6ms (88th percentile); Memory Usage: 6.6MB (99th percentile).
