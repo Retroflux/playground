@@ -99,6 +99,8 @@
 
 [0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0496-Next_Greater_Element_I) (Python) Next Greater Element I: 149ms (14th percentile); Memory Usage: 14.1MB (93rd percentile)
 
+[0509](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0509-Fibonacci_Number) (Python) Fibonacci Number 27ms (91st percentile); Memory Usage: 13.9MB (42nd percentile)
+
 [0566](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0556-Reshape_the_Matrix) (Python) Reshape the Matrix 82ms (96th percentile); Memory Usage: 14.7MB (70th percentile)
 
 [0704](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0704-Binary_Search) (Python) Binary Search Runtime: 233ms (95th percentile); Memory Usage: 15.4MB (97th percentile)
