@@ -53,6 +53,8 @@
 
 [0102](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0102-Binary_Tree_Level_Order_Traversal) (Python) Binary Tree Level Order Traversal Runtime: 32ms (86rd percentile); Memory Usage: 14.1MB (98th percentile).
 
+[0104](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0104-Maximum_Depth_of_Binary_Tree) (Python) Maximum Depth of Binary Tree Runtime: 33ms (98th percentile); Memory Usage: 16.2MB (51st percentile).
+
 [0121](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0121-Best_Time_to_Buy_and_Sell_Stock) (Python) Best Time to Buy and Sell Stock Runtime: 936ms (94th percentile); Memory Usage: 24.8MB (97th percentile).
 
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
@@ -95,6 +97,8 @@
 
 [0392](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0392-Is_Subsequence) (Python) Is Subsequence Runtime: 32ms (74th percentile); Memory Usage: 13.9MB (71st percentile)
 
+[0404](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0404-Sum_of_Left_Leaves) (Python) Sum of Left Leaves Runtime: 40ms (27th percentile); Memory Usage: 14.8MB (41st percentile)
+
 [0409](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0409-Longest_Palindrome) (Python) Longest Palindrome Runtime: 35ms (60th percentile); Memory Usage: 13.8MB (96th percentile)
 
 [0496](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0496-Next_Greater_Element_I) (Python) Next Greater Element Runtime: 149ms (14th percentile); Memory Usage: 14.1MB (93rd percentile)
@@ -124,6 +128,8 @@
 [1232](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1232-Check_If_It_is_a_Straight_Line) (Python) Check If It is a Straight Line Runtime: 60ms (82nd percentile); Memory Usage: 14.3MB (70th percentile)
 
 [1281](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1281-Subtract_the_Product_and_the_Sum_of_Digits_of_an_Integer) (Python) Subtract the Product and the Sum of Digits of an Integer Runtime: 27ms (87th percentile); Memory Usage: 13.8MB (92nd percentile)
+
+[1290](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1290-Convert_Binary_Number_in_a_Linked_List_to_Integer) (Python) Convert Binary Number in a Linked List to Integer Runtime: 26ms (94th percentile); Memory Usage: 13.8MB (42nd percentile)
 
 [1309](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1309-Decrypt_String_from_Alphabet_to_Integer_Mapping) (Python) Decrypt String from Alphabet to Integer Mapping Runtime: 28ms (90th percentile); Memory Usage: 13.9MB (55th percentile)
 
