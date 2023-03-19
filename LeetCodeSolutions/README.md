@@ -42,6 +42,8 @@
 
 [0067](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0066-Plus_One) (Python) Plus One Runtime: 54ms (47th percentile); Memory Usage: 13.9MB (73rd percentile).
 
+[0070](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0070-Climbing_Stairs) (Python) Climbing Stairs Runtime: 27ms (88th percentile); Memory Usage: 13.8MB (94th percentile).
+
 [0088](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0088-Merge_Sorted_Array) (Python) Merge Sorted Array Runtime: 43ms (84th percentile); Memory Usage: 13.9MB (85th percentile).
 
 [0098](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0098-Validate_Binary_Search_Tree) (Python) Validate Binary Search Tree Runtime: 43ms (81st percentile); Memory Usage: 16.4MB (71st percentile).
