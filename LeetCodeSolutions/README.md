@@ -109,6 +109,8 @@
 
 [0566](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0556-Reshape_the_Matrix) (Python) Reshape the Matrix 82ms (96th percentile); Memory Usage: 14.7MB (70th percentile)
 
+[0605](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0605-Can_Place_Flowers) (Python) Can Place Flowers 187ms (19th percentile); Memory Usage: 14.5MB (21st percentile)
+
 [0704](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0704-Binary_Search) (Python) Binary Search Runtime: 233ms (95th percentile); Memory Usage: 15.4MB (97th percentile)
 
 [0709] To Lower Case; I'm not uploading a Python solution for this lol, just use .lower()
@@ -132,6 +134,8 @@
 [1290](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1290-Convert_Binary_Number_in_a_Linked_List_to_Integer) (Python) Convert Binary Number in a Linked List to Integer Runtime: 26ms (94th percentile); Memory Usage: 13.8MB (42nd percentile)
 
 [1309](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1309-Decrypt_String_from_Alphabet_to_Integer_Mapping) (Python) Decrypt String from Alphabet to Integer Mapping Runtime: 28ms (90th percentile); Memory Usage: 13.9MB (55th percentile)
+
+[1356](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1356-Sort_Integers_by_the_Number_of_1_Bits) (Python) Sort Integers by the Number of 1 Bits Runtime: 125ms (10th percentile); Memory Usage: 14.1MB (72nd percentile)
 
 [1472](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1472-Design_Browser_History) (Python) Design Browser History Runtime: 217ms (87th percentile); Memory Usage: 16.7MB (71st percentile)
 
