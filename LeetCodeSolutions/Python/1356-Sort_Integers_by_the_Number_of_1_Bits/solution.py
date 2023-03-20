@@ -5,7 +5,9 @@
 # Memory Usage: 14.1Mb, less than 71.55% of Python3 online submissions for Sort Integers by the Number of 1 Bits.
 
 #Problem: 
-
+#  You are given an integer array arr. Sort the integers in the array in ascending order by the number of 1's
+#  in their binary representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.
+#  Return the array after sorting it.
 
 
 #To anyone that reads this, you can also do this one line and have the same results in half the time:

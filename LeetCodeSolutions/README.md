@@ -76,10 +76,13 @@
 
 [0206](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0206-Reverse_Linked_List) (Python) Reverse Linked List Runtime: 35ms (79th percentile); Memory Usage: 15.4MB (89th percentile).
 
-[0208](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0208-Implement_Trie_Prefix_Tree) (Python) Implement Trie Prefix Tree Runtime: 156ms (86th percentile); Memory Usage: 31.8MB (25th* percentile).
+[0208](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0208-Implement_Trie_Prefix_Tree) (Python) Implement Trie Prefix Tree Runtime: 156ms (86th percentile); Memory Usage: 31.8MB (25th percentile).
+
+[0217](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0217-Contains_Duplicate) (Python) Contains Duplicate Runtime: 603ms (25th percentile); Memory Usage: 26MB (100th percentile).
 
 [0235](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0235-Lowest_Common_Ansestor_of_a_Binary_Search_Tree) (Python) Lowest Common Ancestor of a Binary Search Tree Runtime: 72ms (94th percentile); Memory Usage: 18.7MB (96th percentile).
 
+[0242](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0242-Valid_Anagram) (Python) Valid Anagram; Two solutions completed (see folder)
 
 [0278](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0278-First_Bad_Version) (Python) First Bad Version Runtime: 30ms (73rd percentile); Memory Usage: 13.7MB (95th percentile).
 
