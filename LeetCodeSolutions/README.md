@@ -88,6 +88,8 @@
 
 [0283](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0283-Move_Zeroes) (Python) Move Zeroes Runtime: 159ms (95th percentile); Memory Usage: 15.6MB (53rd percentile).
 
+[0303](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0303-Range_Sum_Query_Immutable) (Python) Range Sum Query Immutable Runtime: 1110ms (26th percentile); Memory Usage: 17.4MB (98th percentile).
+
 [0344](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0344-Reverse_String) (Python) Reverse String Runtime: 211ms (81st percentile); Memory Usage: 18.4MB (87th percentile).
 
 [0345](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0345-Reverse_Vowels_of_a_String) (Python) Reverse Vowels of a String Runtime: 58ms (84th percentile); Memory Usage: 15.1MB (58th percentile).
@@ -155,6 +157,8 @@
 [1572](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1572-Matrix_Diagonal_Sum) (Python) Matrix Diagonal Sum Runtime: 106ms (87th percentile); Memory Usage: 14MB (89th percentile)
 
 [1588](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1588-Sum_of_All_Odd_Length_Subarrays) (Python) Sum of All Odd Length Subarrays Runtime: 64ms (59th percentile); Memory Usage: 13.7MB (94th percentile)
+
+[1603](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1603-Design_Parking_System) (Python) Design Parking System Runtime: 129ms (93rd percentile); Memory Usage: 14.5MB (53rd percentile)
 
 [1672](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1672-Richest_Customer_Wealth) (Python) Richest Customer Wealth Runtime: 46ms (98th percentile); Memory Usage: 13.8MB (97th percentile)
 
