@@ -1,6 +1,7 @@
-<h2>Completed Solutions:</h2>
+## Completed Solutions:
 
-[0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Two Sum; No Statistics Available because I re-arranged the provided array, cannot complete.
+[0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Two Sum; No Statistics Available because I re-arranged the provided array, cannot complete. <br>
+[0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0001-Two_Sum) (Python) Two Sum Runtime 62ms (77th percentile); Memory Usage: 15.3MB (16th percentile).
 
 [0002](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Add Two Numbers Runtime: 26ms (20th percentile); Memory Usage: 7MB (99th percentile) (see comments regarding runtime improvements). 
 
