@@ -1,3 +1,8 @@
+### Average CPU Usage: Top 76.39th percentile (across 82 solutions)
+### Average Memory Usage: Top 74.54th percentile (across 82 solutions)
+
+<br>
+
 ## Completed Solutions:
 
 [0001](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0001-Two_Sum) (C) Two Sum; No Statistics Available because I re-arranged the provided array, cannot complete. <br>
