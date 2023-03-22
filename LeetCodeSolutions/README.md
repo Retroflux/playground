@@ -89,6 +89,8 @@
 
 [0283](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0283-Move_Zeroes) (Python) Move Zeroes Runtime: 159ms (95th percentile); Memory Usage: 15.6MB (53rd percentile).
 
+[0299](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0299-Bulls_and_Cows) (Python) Bulls and Cows Runtime: 54ms (21st percentile); Memory Usage: 13.7MB (99th percentile).
+
 [0303](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0303-Range_Sum_Query_Immutable) (Python) Range Sum Query Immutable Runtime: 1110ms (26th percentile); Memory Usage: 17.4MB (98th percentile).
 
 [0344](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0344-Reverse_String) (Python) Reverse String Runtime: 211ms (81st percentile); Memory Usage: 18.4MB (87th percentile).
