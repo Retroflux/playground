@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 76.39th percentile (across 82 solutions)
-### Average Memory Usage: Top 74.54th percentile (across 82 solutions)
+### Average CPU Usage: Top 76.46th percentile (across 84 solutions)
+### Average Memory Usage: Top 77.04th percentile (across 84 solutions)
 
 <br>
 
@@ -110,6 +110,8 @@
 
 [0392](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0392-Is_Subsequence) (Python) Is Subsequence Runtime: 32ms (74th percentile); Memory Usage: 13.9MB (71st percentile)
 
+[0394](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0394-Decode_String) (Python) Decode String Runtime: 30ms (74th percentile); Memory Usage: 13.8MB (97th percentile)
+
 [0404](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0404-Sum_of_Left_Leaves) (Python) Sum of Left Leaves Runtime: 40ms (27th percentile); Memory Usage: 14.8MB (41st percentile)
 
 [0409](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0409-Longest_Palindrome) (Python) Longest Palindrome Runtime: 35ms (60th percentile); Memory Usage: 13.8MB (96th percentile)
@@ -131,6 +133,8 @@
 [0725](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0724-Find_Pivot_Index) (Python) Find Pivot Index Runtime: 149ms (85th percentile); Memory Usage: 15.2MB (85th percentile)
 
 [0733](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0733-Flood_Fill) (Python) Flood Fill Runtime: 62ms (100th percentile); Memory Usage: 14MB (85th percentile)
+
+[0844](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0844-Backspace_String_Compare) (Python) Backspace String Compare Runtime: 29ms (84th percentile); Memory Usage: 13.8MB (98th percentile)
 
 [0876](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0876-Middle_of_the_Linked_List) (Python) Middle of the Linked List Runtime: 27ms (90th percentile); Memory Usage: 13.8MB (45th percentile)
 
