@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 76.46th percentile (across 84 solutions)
-### Average Memory Usage: Top 77.04th percentile (across 84 solutions)
+### Average CPU Usage: Top 76.72th percentile (across 85 solutions)
+### Average Memory Usage: Top 77.00th percentile (across 85 solutions)
 
 <br>
 
@@ -165,6 +165,9 @@
 
 [1501] bro this was a one-liner I'm not uploading code for this
 [1502] bro this was a one-liner I'm not uploading code for this
+
+[1539](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1539-Kth_Missing_Positive_Number) (Python) Kth Missing Positive Number Runtime: 40ms (99th percentile); Memory Usage: 13.9MB (74th percentile)
+
 
 [1572](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1572-Matrix_Diagonal_Sum) (Python) Matrix Diagonal Sum Runtime: 106ms (87th percentile); Memory Usage: 14MB (89th percentile)
 
