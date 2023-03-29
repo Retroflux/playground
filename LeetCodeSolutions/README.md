@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 76.72th percentile (across 85 solutions)
-### Average Memory Usage: Top 77.00th percentile (across 85 solutions)
+### Average CPU Usage: Top 76.89th percentile (across 86 solutions)
+### Average Memory Usage: Top 77.26th percentile (across 86 solutions)
 
 <br>
 
@@ -153,6 +153,8 @@
 [1309](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1309-Decrypt_String_from_Alphabet_to_Integer_Mapping) (Python) Decrypt String from Alphabet to Integer Mapping Runtime: 28ms (90th percentile); Memory Usage: 13.9MB (55th percentile)
 
 [1356](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1356-Sort_Integers_by_the_Number_of_1_Bits) (Python) Sort Integers by the Number of 1 Bits Runtime: 125ms (10th percentile); Memory Usage: 14.1MB (72nd percentile)
+
+[1402](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1402-Reducing_Dishes) (Python) Reducing Dishes History Runtime: 37ms (91st percentile); Memory Usage: 13.8MB (99th percentile)
 
 [1472](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1472-Design_Browser_History) (Python) Design Browser History Runtime: 217ms (87th percentile); Memory Usage: 16.7MB (71st percentile)
 
