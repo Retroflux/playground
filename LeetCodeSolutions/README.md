@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 77.12th percentile (across 87 solutions)
-### Average Memory Usage: Top 77.07th percentile (across 87 solutions)
+### Average CPU Usage: Top 77.21st percentile (across 88 solutions)
+### Average Memory Usage: Top 77.27th percentile (across 88 solutions)
 
 <br>
 
@@ -43,6 +43,8 @@
 [0021](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0021-Merge_Two_Sorted_Lists) (Python) Merge Two Sorted List Runtime: 41ms (88th percentile); Memory Usage: 13.9MB (79th percentile).
 
 [0023](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0023-Merge_k_Sorted_Lists) (Python) Merge k Sorted Lists Runtime: 4298ms (9th percentile); Memory Usage: 17.5MB (90th percentile).
+
+[0026](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0026-Remove_Duplicates_From_Sorted_Array) (Python) Remove Duplicates From Sorted Array Runtime: 84ms (85th percentile); Memory Usage: 15.5MB (95th percentile).
 
 [0030](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0030-Substring_with_Concatenation_of_All_Words) (Python) Substring with Concatenation of All Words Clears 151/177 Test Cases before memory limit exceeded.
 
