@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 77.42nd percentile (across 90 solutions)
-### Average Memory Usage: Top 77.66th percentile (across 90 solutions)
+### Average CPU Usage: Top 77.53nd percentile (across 91 solutions)
+### Average Memory Usage: Top 77.88th percentile (across 91 solutions)
 
 <br>
 
@@ -49,6 +49,8 @@
 [0027](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0027-Remove_Element) (Python) Remove Element Runtime: 31ms (84th percentile); Memory Usage: 13.7MB (95th percentile).
 
 [0028](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0028-Find_the_Index_of_the_First_Occurrence_in_a_String) (Python) Find the Index of the First Occurrence in a String Runtime: 27ms (89th percentile); Memory Usage: 13.8MB (95th percentile).
+
+[0029](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0029-Divide_Two_Numbers) (Python) Divide Two Numbers Runtime: 30ms (88th percentile); Memory Usage: 13.8MB (98th percentile).
 
 [0030](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0030-Substring_with_Concatenation_of_All_Words) (Python) Substring with Concatenation of All Words Clears 151/177 Test Cases before memory limit exceeded.
 
