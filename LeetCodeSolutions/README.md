@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 77.21st percentile (across 88 solutions)
-### Average Memory Usage: Top 77.27th percentile (across 88 solutions)
+### Average CPU Usage: Top 77.42nd percentile (across 90 solutions)
+### Average Memory Usage: Top 77.66th percentile (across 90 solutions)
 
 <br>
 
@@ -45,6 +45,10 @@
 [0023](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0023-Merge_k_Sorted_Lists) (Python) Merge k Sorted Lists Runtime: 4298ms (9th percentile); Memory Usage: 17.5MB (90th percentile).
 
 [0026](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0026-Remove_Duplicates_From_Sorted_Array) (Python) Remove Duplicates From Sorted Array Runtime: 84ms (85th percentile); Memory Usage: 15.5MB (95th percentile).
+
+[0027](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0027-Remove_Element) (Python) Remove Element Runtime: 31ms (84th percentile); Memory Usage: 13.7MB (95th percentile).
+
+[0028](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0028-Find_the_Index_of_the_First_Occurrence_in_a_String) (Python) Find the Index of the First Occurrence in a String Runtime: 27ms (89th percentile); Memory Usage: 13.8MB (95th percentile).
 
 [0030](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0030-Substring_with_Concatenation_of_All_Words) (Python) Substring with Concatenation of All Words Clears 151/177 Test Cases before memory limit exceeded.
 
