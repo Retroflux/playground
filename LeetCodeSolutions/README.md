@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 76.89th percentile (across 86 solutions)
-### Average Memory Usage: Top 77.26th percentile (across 86 solutions)
+### Average CPU Usage: Top 77.12th percentile (across 87 solutions)
+### Average Memory Usage: Top 77.07th percentile (across 87 solutions)
 
 <br>
 
@@ -35,6 +35,8 @@
 [0013](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0013-Roman_To_Integer) (C) Roman to Integer Runtime: 0 ms (100th percentile); Memory Usage: 5.8 MB (85th percentile).
 
 [0014](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0014-Longest_Common_Prefix) (Python) Longest Common Prefix Runtime: 32ms (95th percentile); Memory Usage: 14MB (49th percentile).
+
+[0015](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0015-3Sum) (Python) 3Sum Runtime: 889ms (97th percentile); Memory Usage: 18.4MB (61st percentile).
 
 [0020](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0020-Valid_Parentheses) (Python) Valid Parentheses Runtime: 42ms (66th percentile); Memory Usage: 13.8MB (69th percentile).
 
