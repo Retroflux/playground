@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 78.05th percentile (across 94 solutions)
-### Average Memory Usage: Top 78.45th percentile (across 94 solutions)
+### Average CPU Usage: Top 78.12th percentile (across 95 solutions)
+### Average Memory Usage: Top 78.49th percentile (across 95 solutions)
 
 <br>
 
@@ -71,12 +71,14 @@
 
 [0104](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0104-Maximum_Depth_of_Binary_Tree) (Python) Maximum Depth of Binary Tree Runtime: 33ms (98th percentile); Memory Usage: 16.2MB (51st percentile).
 
-[0121](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0121-Best_Time_to_Buy_and_Sell_Stock) (Python) Best Time to Buy and Sell Stock Runtime: 936ms (94th percentile); Memory Usage: 24.8MB (97th percentile).
-
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0120-Triangle) (Python) Triangle Runtime: 87ms (62nd percentile); Memory Usage: 14.7MB (99th percentile).<br>
 [0120](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/C/0120-Triangle) (C) Triangle Runtime: 9ms (66th percentile); Memory Usage: 6.8MB (65th percentile).
 
+[0121](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0121-Best_Time_to_Buy_and_Sell_Stock) (Python) Best Time to Buy and Sell Stock Runtime: 936ms (94th percentile); Memory Usage: 24.8MB (97th percentile).
+
 [0129](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0129-Sum_Root_to_Leaf_Numbers) (Python) Sum Root to Leaf Numbers Runtime: 28ms (89th percentile); Memory Usage: 13.8MB (96th percentile).
+
+[0136](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0136-Single_Number) (Python) Single Number Runtime: 130ms (85th percentile); Memory Usage: 16.7MB (83rd percentile).
 
 [0142](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0142-Linked_List_Cycle_II) (Python) Linked List Cycle II Runtime: 51ms (74th percentile); Memory Usage: 17.3MB (90th percentile).
 
