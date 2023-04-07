@@ -1,4 +1,4 @@
-### Average CPU Usage: Top 78.20th percentile (across 96 solutions)
+### Average CPU Usage: Top 78.33rd percentile (across 96 solutions)
 ### Average Memory Usage: Top 78.65th percentile (across 96 solutions)
 
 <br>

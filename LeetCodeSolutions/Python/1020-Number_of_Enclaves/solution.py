@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/number-of-enclaves/submissions/929335573/
 # Date of Submission: 2023-04-06
 
-# Runtime: 634 ms, faster than 85.77% of Python3 online submissions for Number of Enclaves.
+# Runtime: 621 ms, faster than 90.78% of Python3 online submissions for Number of Enclaves.
 # Memory Usage: 15.5 MB, less than 94.11% of Python3 online submissions for Number of Enclaves.
 
 # Problem:
@@ -14,8 +14,8 @@
 
 class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:
+
         edgeLocations = self.buildOuterList(grid)
-        totalOuter = len(edgeLocations)
         while len(edgeLocations) > 0:
             edgeLocations = self.checkOrdinalSpace(grid, edgeLocations)
         return self.countRemainingOnes(grid)
@@ -24,21 +24,20 @@ class Solution:
         edgeLocations = list()
         n = len(grid)
         m = len(grid[0])
-        for i in range(0, m):
+        for i in range(0, m):  # check top and bottom row
             if grid[0][i] == 1:
                 edgeLocations.append((0, i))
                 grid[0][i] = 0
             if grid[n-1][i] == 1:
                 edgeLocations.append((n-1, i))
                 grid[n-1][i] = 0
-        for i in range(1, n-1):
+        for i in range(1, n-1):  # check left and right edges
             if grid[i][0] == 1:
                 edgeLocations.append((i, 0))
                 grid[i][0] = 0
             if grid[i][m-1] == 1:
                 edgeLocations.append((i, m-1))
                 grid[i][m-1] = 0
-        print(edgeLocations)
         return edgeLocations
 
     def checkOrdinalSpace(self, grid, edgeLocations) -> list:
@@ -48,25 +47,31 @@ class Solution:
         newList = list()
 
         for cell in edgeLocations:
+            # check west edge for a '1'
             if self.checkValidDirection(m, n, cell[0]-1, cell[1]):
                 if grid[cell[0]-1][cell[1]] == 1:
                     newList.append((cell[0]-1, cell[1]))
                     grid[cell[0]-1][cell[1]] = 0
+            # check east edge for a '1'
             if self.checkValidDirection(m, n, cell[0]+1, cell[1]):
                 if grid[cell[0]+1][cell[1]] == 1:
                     newList.append((cell[0]+1, cell[1]))
                     grid[cell[0]+1][cell[1]] = 0
+            # check north edge for a '1'
             if self.checkValidDirection(m, n, cell[0], cell[1]-1):
                 if grid[cell[0]][cell[1]-1] == 1:
                     newList.append((cell[0], cell[1]-1))
                     grid[cell[0]][cell[1]-1] = 0
+            # check south edge for a '1'
             if self.checkValidDirection(m, n, cell[0], cell[1]+1):
                 if grid[cell[0]][cell[1]+1] == 1:
                     newList.append((cell[0], cell[1]+1))
                     grid[cell[0]][cell[1]+1] = 0
+
+            # we're done with the current square, so hide it
             grid[cell[0]][cell[1]] = 0
 
-        return newList
+        return newList  # return next 'layer' of 1's to check
 
     def checkValidDirection(self, m, n, newM, newN) -> bool:
         if newM < 0 or newN < 0:
