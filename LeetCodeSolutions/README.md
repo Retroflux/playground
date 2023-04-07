@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 78.12th percentile (across 95 solutions)
-### Average Memory Usage: Top 78.49th percentile (across 95 solutions)
+### Average CPU Usage: Top 78.20th percentile (across 96 solutions)
+### Average Memory Usage: Top 78.65th percentile (across 96 solutions)
 
 <br>
 
@@ -157,6 +157,8 @@
 [0953](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/953-Verifying_an_Alien_Dictionary) (Python) Verifying an Alien Dictionary Runtime: 40ms (50th percentile); Memory Usage: 13.7MB (99th percentile)
 
 [0976](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/976-Largest_Perimeter_Triangle) (Python) Largest Perimeter Triangle Runtime: 189ms (91st percentile); Memory Usage: 15.4MB (36th percentile)
+
+[1020](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1020-Number_of_Enclaves) (Python) Number of Enclaves Runtime: 634ms (86th percentile); Memory Usage: 15.5MB (94th percentile)
 
 [1232](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1232-Check_If_It_is_a_Straight_Line) (Python) Check If It is a Straight Line Runtime: 60ms (82nd percentile); Memory Usage: 14.3MB (70th percentile)
 
