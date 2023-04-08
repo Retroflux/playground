@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 78.33rd percentile (across 96 solutions)
-### Average Memory Usage: Top 78.65th percentile (across 96 solutions)
+### Average CPU Usage: Top 78.48th percentile (across 97 solutions)
+### Average Memory Usage: Top 78.85th percentile (across 97 solutions)
 
 <br>
 
@@ -52,7 +52,9 @@
 
 [0029](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0029-Divide_Two_Numbers) (Python) Divide Two Numbers Runtime: 30ms (88th percentile); Memory Usage: 13.8MB (98th percentile).
 
-[0030](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0030-Substring_with_Concatenation_of_All_Words) (Python) Substring with Concatenation of All Words Clears 151/177 Test Cases before memory limit exceeded.
+[0031](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0031-Next_Permutation) (Python) Next Permutation Runtime: 37ms (93rd percentile); Memory Usage: 13.8MB (98th percentile).
+
+[0066](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0066-Plus_One) (Python) Plus One Runtime: 31ms (96th percentile); Memory Usage: 13.9MB (58th percentile).
 
 [0066](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0066-Plus_One) (Python) Plus One Runtime: 31ms (96th percentile); Memory Usage: 13.9MB (58th percentile).
 
