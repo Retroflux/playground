@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 78.48th percentile (across 97 solutions)
-### Average Memory Usage: Top 78.85th percentile (across 97 solutions)
+### Average CPU Usage: Top 78.48th percentile (across 98 solutions)
+### Average Memory Usage: Top 79.03rd percentile (across 98s solutions)
 
 <br>
 
@@ -41,6 +41,8 @@
 [0020](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0020-Valid_Parentheses) (Python) Valid Parentheses Runtime: 42ms (66th percentile); Memory Usage: 13.8MB (69th percentile).
 
 [0021](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0021-Merge_Two_Sorted_Lists) (Python) Merge Two Sorted List Runtime: 41ms (88th percentile); Memory Usage: 13.9MB (79th percentile).
+
+[0022](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0022-Generate_Parentheses) (Python) Generate Parentheses Runtime: 33ms (79th percentile); Memory Usage: 14.1MB (97th percentile).
 
 [0023](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0023-Merge_k_Sorted_Lists) (Python) Merge k Sorted Lists Runtime: 4298ms (9th percentile); Memory Usage: 17.5MB (90th percentile).
 
