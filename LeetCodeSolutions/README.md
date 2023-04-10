@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 78.87th percentile (across 99 solutions)
-### Average Memory Usage: Top 79.16th percentile (across 99 solutions)
+### Average CPU Usage: Top 79.05th percentile (across 100 solutions)
+### Average Memory Usage: Top 79.35th percentile (across 100 solutions)
 
 <br>
 
@@ -56,7 +56,9 @@
 
 [0031](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0031-Next_Permutation) (Python) Next Permutation Runtime: 37ms (93rd percentile); Memory Usage: 13.8MB (98th percentile).
 
-[0035](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0035-Search_Insert_Position) (Python) Search Insert Position Runtime: 39ms (99th percentile); Memory Usage: 14.6MB (99th percentile).
+[0035](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0035-Search_Insert_Position) (Python) Search Insert Position Runtime: 39ms (99th percentile); Memory Usage: 14.6MB (71st percentile).
+
+[0036](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0036-Valid_Sudoku) (Python) Valid Sudoku Runtime: 86ms (97th percentile); Memory Usage: 13.7MB (98th percentile).
 
 [0066](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0066-Plus_One) (Python) Plus One Runtime: 31ms (96th percentile); Memory Usage: 13.9MB (58th percentile).
 
