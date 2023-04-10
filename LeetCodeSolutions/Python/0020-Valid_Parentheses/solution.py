@@ -1,9 +1,9 @@
 # https://leetcode.com/submissions/detail/741402736/
 # Date of Submission: 2022-07-07
+# Updated: 2023-04-10
 
-# Runtime: 42 ms, faster than 66.63% of Python3 online submissions for Valid Parentheses.
-# Memory Usage: 13.8 MB, less than 69.84% of Python3 online submissions for Valid Parentheses.
-
+# Runtime: 24 ms, faster than 96.11% of Python3 online submissions for Valid Parentheses.
+# Memory Usage: 13.7 MB, less than 99.92% of Python3 online submissions for Valid Parentheses.
 
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -11,8 +11,14 @@ class Solution:
         if len(s) % 2 == 1:  # if odd
             return False
 
-        leftThings = ["{", "(", "["]
+        if s.count("{") != s.count("}"):
+            return False
+        elif s.count("(") != s.count(")"):
+            return False
+        elif s.count("[") != s.count("]"):
+            return False
 
+        leftThings = ["{", "(", "["]
         currList = list()
         topOfList = ""
 
