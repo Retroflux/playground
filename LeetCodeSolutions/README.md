@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 78.66th percentile (across 98 solutions)
-### Average Memory Usage: Top 79.24th percentile (across 98 solutions)
+### Average CPU Usage: Top 78.87th percentile (across 99 solutions)
+### Average Memory Usage: Top 79.16th percentile (across 99 solutions)
 
 <br>
 
@@ -55,6 +55,8 @@
 [0029](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0029-Divide_Two_Numbers) (Python) Divide Two Numbers Runtime: 30ms (88th percentile); Memory Usage: 13.8MB (98th percentile).
 
 [0031](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0031-Next_Permutation) (Python) Next Permutation Runtime: 37ms (93rd percentile); Memory Usage: 13.8MB (98th percentile).
+
+[0035](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0035-Search_Insert_Position) (Python) Search Insert Position Runtime: 39ms (99th percentile); Memory Usage: 14.6MB (99th percentile).
 
 [0066](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/0066-Plus_One) (Python) Plus One Runtime: 31ms (96th percentile); Memory Usage: 13.9MB (58th percentile).
 
