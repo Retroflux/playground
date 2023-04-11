@@ -1,5 +1,5 @@
-### Average CPU Usage: Top 79.05th percentile (across 100 solutions)
-### Average Memory Usage: Top 79.35th percentile (across 100 solutions)
+### Average CPU Usage: Top 79.23rd percentile (across 101 solutions)
+### Average Memory Usage: Top 79.55th percentile (across 101 solutions)
 
 <br>
 
@@ -208,5 +208,7 @@
 [1768](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1768-Merge_Strings_Alternately) (Python) Merge Strings Alternately Runtime: 31ms (75th percentile); Memory Usage: 13.7MB (97th percentile)
 
 [1779](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/1779-Find_Nearest_Point_That_Has_the_Same_X_or_Y_Coordinate) (Python) Find Nearest Point That Has the Same X or Y Coordinate Runtime: 28ms (82nd percentile); Memory Usage: 13.8MB (48th percentile)
+
+[2390](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/2390-Removing_Stars_From_a_String) (Python) Removing Stars From a String Runtime: 210ms (98th percentile); Memory Usage: 15MB (100th percentile)
 
 [2405](https://github.com/Retroflux/playground/tree/main/LeetCodeSolutions/Python/2405-Optimal_Partition_of_String) (Python) Optimal Partition of String Runtime: 86ms (96th percentile); Memory Usage: 14.6MB (91st percentile)
